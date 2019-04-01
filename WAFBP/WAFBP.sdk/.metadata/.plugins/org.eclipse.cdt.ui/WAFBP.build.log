@@ -1,0 +1,8 @@
+23:37:22 **** Incremental Build of configuration Debug for project WAFBP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+23:37:23 Build Finished (took 1s.229ms)
+
