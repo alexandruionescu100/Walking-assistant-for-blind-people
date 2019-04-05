@@ -1,0 +1,1449 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 7448
+License: Customer
+
+Current time: 	Fri Apr 05 10:57:24 EEST 2019
+Time zone: 	Eastern European Standard Time (Europe/Athens)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 17 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	alexi
+User home directory: C:/Users/alexi
+User working directory: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.3
+RDI_DATADIR: D:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/alexi/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/alexi/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/alexi/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/vivado.log
+Vivado journal file location: 	F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/vivado.jou
+Engine tmp dir: 	F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/.Xil/Vivado-7448-alexi-PC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2018.3
+XILINX_SDK: D:/Xilinx/SDK/2018.3
+XILINX_VIVADO: D:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 583 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 61 MB (+61837kb) [00:00:13]
+// [Engine Memory]: 561 MB (+436263kb) [00:00:13]
+// Opening Vivado Project: F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\ip_repo\edit_sonar_v1_0.xpr. Version: Vivado v2018.3 
+// bx (cp):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 643 MB. GUI used memory: 45 MB. Current time: 4/5/19, 10:57:26 AM EEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 92 MB (+29283kb) [00:00:30]
+// [Engine Memory]: 758 MB (+177901kb) [00:00:30]
+// WARNING: HEventQueue.dispatchEvent() is taking  5173 ms.
+// Tcl Message: open_project F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 772 MB. GUI used memory: 49 MB. Current time: 4/5/19, 10:57:43 AM EEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 803.230 ; gain = 190.691 
+// Project name: edit_sonar_v1_0; location: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 166 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u (Q, cp)
+// [Engine Memory]: 804 MB (+8631kb) [00:03:23]
+// bx (cp):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bx (cp)
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// bx (cp):  IP Packager : addNotify
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: LOAD_FEATURE
+// Tcl Message: ipx::open_ipxact_file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/component.xml 
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// 'm' command handler elapsed time: 3 seconds
+// [GUI Memory]: 102 MB (+5354kb) [00:03:27]
+// WARNING: HEventQueue.dispatchEvent() is taking  3178 ms.
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 846 MB. GUI used memory: 55 MB. Current time: 4/5/19, 11:00:37 AM EEST
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [Engine Memory]: 846 MB (+1414kb) [00:03:28]
+dismissDialog("IP Packager"); // bx (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (Q, cp)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// F (cp): Settings: addNotify
+// 'dy' command handler elapsed time: 4 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  4131 ms.
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // L (C, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// [GUI Memory]: 118 MB (+11432kb) [00:03:49]
+// WARNING: HEventQueue.dispatchEvent() is taking  1158 ms.
+dismissDialog("Settings"); // F (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u (Q, cp)
+// bx (cp):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bx (cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ar (Q, cp)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Customization Parameters Wizard"); // h (M, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ar (Q, cp)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Customization Parameters Wizard"); // h (M, cp)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// [GUI Memory]: 134 MB (+10188kb) [00:04:05]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1526 ms.
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false); // M (Q, cp) - Popup Trigger
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // ar (Q, cp)
+// [Engine Memory]: 888 MB (+24kb) [00:04:27]
+selectTable(PAResourceAtoD.AddressBlockFacetTable_ADDRESS_BLOCKS, "S00_AXI_reg ;  ;  ; 0 ; 4096 ; ", 0, "S00_AXI_reg", 0); // H (Q, cp)
+selectTable(PAResourceAtoD.AddressBlockFacetTable_ADDRESS_BLOCKS, "S00_AXI_reg ;  ;  ; 0 ; 4096 ; ", 0, "S00_AXI_reg", 0); // H (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_WARNING_MESSAGES, "2 warnings"); // h (M, cp)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_INFO_MESSAGES, "2 info messages"); // h (M, cp)
+selectButton(PAResourceItoN.MessageBanner_SEE_LIST_OF_INFO_MESSAGES, "2 info messages"); // h (M, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// bx (cp):  Package IP : addNotify
+// Tcl Message: set_property core_revision 6 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -repo_path f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0' 
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+// Elapsed time: 622 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1); // B (D, cp)
+// PAPropertyPanels.initPanels (sonar_v1_0_S00_AXI.vhd) elapsed time: 0.3s
+// [GUI Memory]: 155 MB (+15086kb) [00:15:15]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 28 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 147, 144); // cl (w, cp)
+// Elapsed time: 55 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 196, 114); // cl (w, cp)
+// Elapsed time: 77 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 20 seconds
+selectCodeEditor("sonar_v1_0.vhd", 219, 66); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("sonar_v1_0.vhd", 279, 153); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("sonar_v1_0.vhd", 139, 148); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("sonar_v1_0.vhd", 154, 107); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0.vhd", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0.vhd", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0.vhd", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+// Elapsed time: 41 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 2); // B (D, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 888 MB. GUI used memory: 84 MB. Current time: 4/5/19, 11:30:41 AM EEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1437 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1841 ms.
+// Elapsed time: 1620 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  8184 ms.
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // X (q, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  1684 ms.
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ac (cp)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.xpr"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  2921 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 216ms to process. Increasing delay to 2000 ms.
+// WARNING: updateGUI() is taking  1660 ms.
+// bx (cp):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2420 ms.
+// Opening Vivado Project: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.xpr. Version: Vivado v2018.3 
+// Elapsed time: 19 seconds
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (C, I)
+// Tcl Message: open_project F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  8872 ms.
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1824 ms.
+// Project name: WAFBP; location: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:01:05 . Memory (MB): peak = 974.766 ; gain = 78.371 
+// Elapsed time: 67 seconds
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0 Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1 Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M Adding cell -- xilinx.com:user:sonar:1.0 - sonar_0 Adding cell -- xilinx.com:ip:vio:3.0 - vio_0 Successfully read diagram <design_1> from BD file <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  37614 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:55 . Memory (MB): peak = 1081.145 ; gain = 102.176 
+// 'bA' command handler elapsed time: 54 seconds
+// Elapsed time: 55 seconds
+dismissDialog("Open Block Design"); // bx (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u (Q, cp)
+// bx (cp):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [GUI Memory]: 167 MB (+4419kb) [00:50:48]
+dismissDialog("Open Project Manager"); // bx (cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // ar (Q, cp)
+// Elapsed time: 14 seconds
+selectList(RDIResource.HListPanel_CHOOSER_LIST, "AXI_Peripheral", 0); // v (Q, cp)
+// Elapsed time: 12 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // ar (Q, cp)
+// Elapsed time: 19 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // ar (Q, cp)
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Simulation ;  ;  ; false ;  ;  ; sonar_v1_0", 3); // M (Q, cp)
+selectTreeTableHeader(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Library Name", 1); // M (Q, cp)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ; false ;  ;  ; sonar_v1_0", 2, "VHDL Synthesis", 0, true); // M (Q, cp) - Node
+// Tcl Message: current_project edit_sonar_v1_0 
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "VHDL Synthesis ;  ;  ; false ;  ;  ; sonar_v1_0", 2); // M (Q, cp)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "hdl/sonar_v1_0.vhd ;  ; vhdlSource ; false ; false ; xilinx_vhdlsynthesis ; ", 4, "hdl/sonar_v1_0.vhd", 0, false); // M (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+// Elapsed time: 10 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // ar (Q, cp)
+selectList(RDIResource.HListPanel_CHOOSER_LIST, "AXI_Peripheral", 0); // v (Q, cp)
+selectList(RDIResource.HListPanel_CHOOSER_LIST, "AXI_Peripheral", 0); // v (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // ar (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (Q, cp)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// F (cp): Settings: addNotify
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, General]", 0, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Elaboration]", 2, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Implementation]", 4, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Bitstream]", 5, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6, true); // L (C, F) - Node
+expandTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Repository]", 7, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Packager]", 8, false); // L (C, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Settings"); // F (cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u (Q, cp)
+// bx (cp):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bx (cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // ar (Q, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd), design_1_sonar_v1_0_S00_AXI_0_0 (Module Reference Wrapper)]", 3, true); // B (D, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 216, 249); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 216, 249, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 109, 227); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 109, 227, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 136, 211); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 136, 211, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 232, 246); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 232, 246, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 230, 290); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 230, 290, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 217, 273); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 217, 273, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 41, 182); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 37, 172); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 37, 172, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 227, 150); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 227, 150, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 152, 271); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 152, 271, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 323 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: current_project WAFBP 
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// bx (cp):  Validate Design : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+dismissDialog("Validate Design"); // bx (cp)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN, "save_rsb_design"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Save Design : addNotify
+// Tcl Message: save_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+dismissDialog("Save Design"); // bx (cp)
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design -force'
+selectButton("PAResourceTtoZ.ValidateRSBDesign_BLOCK_DESIGN_ALREADY_IN_VALIDATED_STATE_Rerun Validate Design", "Rerun Validate Design"); // JButton (C, I)
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Validate Design : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: validate_bd_design -force 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+dismissDialog("Validate Design"); // bx (cp)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN, "save_rsb_design"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Save Design : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  
+dismissDialog("Save Design"); // bx (cp)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cp): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Create HDL Wrapper"); // a (cp)
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Create HDL Wrapper"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 921 MB. GUI used memory: 97 MB. Current time: 4/5/19, 11:58:22 AM EEST
+// [Engine Memory]: 935 MB (+2740kb) [01:01:13]
+// Elapsed time: 165 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run design_1_synth_1 
+// f (cp): Launch Runs: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 942 MB. GUI used memory: 95 MB. Current time: 4/5/19, 12:01:17 PM EEST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 12 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . INFO: [BD 41-1029] Generation completed for the IP Integrator block sonar_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block vio_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . INFO: [BD 41-1029] Generation completed for the IP Integrator block sonar_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block vio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 990 MB (+7834kb) [01:04:14]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Apr  5 12:01:23 2019] Launched design_1_synth_1, synth_1... Run output will be captured here: design_1_synth_1: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/design_1_synth_1/runme.log synth_1: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/runme.log [Fri Apr  5 12:01:23 2019] Launched impl_1... Run output will be captured here: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1346.145 ; gain = 44.359 
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 671ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,041 MB. GUI used memory: 104 MB. Current time: 4/5/19, 12:03:52 PM EEST
+// [Engine Memory]: 1,041 MB (+1577kb) [01:07:12]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 362 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (cp):  Open Implemented Design : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1314 ms.
+// Tcl Message: open_run impl_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1422 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,340 MB. GUI used memory: 106 MB. Current time: 4/5/19, 12:07:33 PM EEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1980 ms. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 201ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 509 ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,501 MB. GUI used memory: 106 MB. Current time: 4/5/19, 12:07:47 PM EEST
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,954 MB. GUI used memory: 106 MB. Current time: 4/5/19, 12:07:55 PM EEST
+// [Engine Memory]: 1,955 MB (+903688kb) [01:10:47]
+// Xgd.load filename: D:/Xilinx/Vivado/2018.3/data/parts/xilinx/zynq/devint/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_floorplan.xgd elapsed time: 0.5s
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: D:/Xilinx/Vivado/2018.3/data/parts/xilinx/zynq/devint/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_detail.xgd elapsed time: 2.2s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 2.6s
+// [GUI Memory]: 178 MB (+2671kb) [01:10:50]
+// [Engine Memory]: 2,087 MB (+36128kb) [01:10:50]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  4991 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 153 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Device 21-403] Loading part xc7z010clg400-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.950 . Memory (MB): peak = 2142.551 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.952 . Memory (MB): peak = 2142.551 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2142.551 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 10 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 4 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances  
+// Tcl Message: INFO: [Common 17-14] Message 'Designutils 20-3303' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// ExpRunCommands.openImplResults elapsed time: 35.8s
+// TclEventType: DRC_ADDED
+// Device view-level: 0,0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:44 ; elapsed = 00:00:35 . Memory (MB): peak = 2264.648 ; gain = 885.652 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 189 MB (+2048kb) [01:10:56]
+// [GUI Memory]: 198 MB (+241kb) [01:10:58]
+// WARNING: HEventQueue.dispatchEvent() is taking  2848 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// WARNING: HEventQueue.dispatchEvent() is taking  1888 ms.
+// 'dQ' command handler elapsed time: 43 seconds
+// aI (cp): Feedback Request: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1025 ms.
+// Elapsed time: 44 seconds
+dismissDialog("Open Implemented Design"); // bx (cp)
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_NO, "No"); // a (aI)
+dismissDialog("Feedback Request"); // aI (cp)
+selectButton("PAResourceTtoZ.TouchpointSurveyDialog_USE_TOOLS_OPTIONS_WINDOWS_BEHAVIOR_OK", "OK"); // JButton (C, I)
+// Elapsed time: 10 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// [GUI Memory]: 215 MB (+7418kb) [01:11:32]
+dismissDialog("Launch SDK"); // aa (cp)
+// bx (cp):  Launch SDK : addNotify
+// Tcl Message: launch_sdk -workspace F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk -hwspec F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk -hwspec F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+dismissDialog("Launch SDK"); // bx (cp)
+// Elapsed time: 185 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cp): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Export Hardware"); // X (cp)
+// Tcl Message: file copy -force F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/impl_1/design_1_wrapper.sysdef F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf  
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk -hwspec F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk -hwspec F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+// Elapsed time: 262 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bx (cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 11 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // bg (C, r)
+// Elapsed time: 16 seconds
+dismissDialog("Re-customize IP"); // r (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,115 MB. GUI used memory: 153 MB. Current time: 4/5/19, 12:17:07 PM EEST
+// Elapsed time: 16 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 471, 453, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ac (al, Popup.HeavyWeightWindow)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 589, 319, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 479, 505, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ac (al, Popup.HeavyWeightWindow)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 611, 205, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ac (al, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC, "Customize Block..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (as, r): FALSE
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (as, r): TRUE
+dismissDialog("Re-customize IP"); // r (cp)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 628, 219, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, cp)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1]", 1); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1]", 1); // B (D, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Distance_value]", 20, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Echo]", 21, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Clk]", 19, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, s00_axi_aresetn]", 18, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, s00_axi_aclk]", 17, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, S00_AXI]", 16, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, s00_axi_aclk]", 17, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Clk]", 19, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Distance_value]", 20, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Echo]", 21, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Trig]", 22, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Echo]", 21, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Trig]", 22, false); // i (Q, cp)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[design_1, sonar_0, W_Distance_value]", 20, false, false, false, false, true, false); // i (Q, cp) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_INTERFACE_PORT, "Create Interface Port..."); // af (al, cp)
+// bx:  Create Interface Port : addNotify
+// aL (cp): Create Interface Port: addNotify
+// Elapsed time: 12 seconds
+selectComboBox(PAResourceAtoD.CreateRSBInterfaceDialog_MODE, "SLAVE", 1); // e (Q, aL)
+// Elapsed time: 32 seconds
+selectTable(PAResourceAtoD.CreateRSBInterfaceDialog_TABLE, "digilentinc.com:interface:pmod_rtl:1.0 ; Pmod Interface for Digilent FPGAs", 0, "Pmod Interface for Digilent FPGAs", 1); // aQ (Q, aL)
+selectTable(PAResourceAtoD.CreateRSBInterfaceDialog_TABLE, "digilentinc.com:interface:pmod_rtl:1.0 ; Pmod Interface for Digilent FPGAs", 0, "Pmod Interface for Digilent FPGAs", 1); // aQ (Q, aL)
+selectTable(PAResourceAtoD.CreateRSBInterfaceDialog_TABLE, "digilentinc.com:interface:pmod_rtl:1.0 ; Pmod Interface for Digilent FPGAs", 0, "Pmod Interface for Digilent FPGAs", 1); // aQ (Q, aL)
+selectTable(PAResourceAtoD.CreateRSBInterfaceDialog_TABLE, "digilentinc.com:interface:pmod_rtl:1.0 ; Pmod Interface for Digilent FPGAs", 0, "Pmod Interface for Digilent FPGAs", 1, false, false, false, false, true); // aQ (Q, aL) - Double Click
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateRSBInterfaceDialog_INTERFACE_NAME, "test"); // Y (Q, aL)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Create Interface Port"); // aL (cp)
+// bx (cp):  Create Interface Port : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_intf_port -mode Slave -vlnv digilentinc.com:interface:pmod_rtl:1.0 test 
+dismissDialog("Create Interface Port"); // bx (cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_intf_ports test] 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// [GUI Memory]: 230 MB (+4380kb) [01:23:32]
+// r (cp): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  4982 ms.
+// [GUI Memory]: 245 MB (+3291kb) [01:23:39]
+// Elapsed time: 59 seconds
+dismissDialog("Re-customize IP"); // r (cp)
+// Elapsed time: 278 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 477, 106); // dr (af, cp)
+// Elapsed time: 977 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 228, 183); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 228, 183, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 28 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 148, 145); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 148, 145, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+// Tcl Message: current_project edit_sonar_v1_0 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd), design_1_sonar_v1_0_S00_AXI_0_0 (Module Reference Wrapper), sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 4, false); // B (D, cp)
+// Elapsed time: 237 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,121 MB. GUI used memory: 181 MB. Current time: 4/5/19, 12:47:07 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,139 MB. GUI used memory: 181 MB. Current time: 4/5/19, 12:47:27 PM EEST
+// Elapsed time: 72 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 32, 462); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 32, 462, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 23, 423, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // af (al, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,161 MB. GUI used memory: 182 MB. Current time: 4/5/19, 12:48:22 PM EEST
+// Elapsed time: 11 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 260, 335); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 139, 292); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 139, 292, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 256, 233); // cl (w, cp)
+typeControlKey((HResource) null, "sonar_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 84, 233); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 182, 228); // cl (w, cp)
+typeControlKey((HResource) null, "sonar_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 80, 250); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 87, 252); // cl (w, cp)
+typeControlKey((HResource) null, "sonar_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 165, 251); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 193, 247); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 37 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 304, 424); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 304, 424, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 35 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 356, 428); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 364, 421); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 201, 457); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 128, 415); // cl (w, cp)
+typeControlKey((HResource) null, "sonar_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 199, 378); // cl (w, cp)
+typeControlKey((HResource) null, "sonar_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 364, 315); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 436, 379); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 450, 389); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1551 ms. Increasing delay to 4653 ms.
+// Elapsed time: 704 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u (Q, cp)
+// bx (cp):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bx (cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0.vhd", 3); // k (j, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u (Q, cp)
+// bx (cp):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bx (cp)
+// Elapsed time: 692 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // ar (Q, cp)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // h (M, cp)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  10090 ms.
+// Thread: main
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.PlanAhead.b(SourceFile:1030)
+// 	at ui.PlanAhead.jswMain(SourceFile:1084)
+// Thread: Update Runs Swing Worker
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.experiment.A.construct(SourceFile:311)
+// 	at ui.frmwork.y.run(SourceFile:204)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Timer-1
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.util.TimerThread.mainLoop(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.run(Unknown Source)
+// Thread: Reference Handler
+// 	at java.base@9.0.4/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.Reference.processPendingReferences(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Reference.access$000(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+// Thread: AWT-Shutdown
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.Object.wait(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.AWTAutoShutdown.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Batik CleanerThread
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+// Thread: SyntheticaAnimation 50
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.utils.lnf.b.run(SourceFile:99)
+// Thread: Java2D Disposer
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.desktop@9.0.4/sun.java2d.Disposer.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: AWT-EventQueue-1
+// 	at ui.data.coregen.packagerMisc.MiscCommands_mergeProjectChanges(Native Method)
+// 	at ui.data.coregen.bO.b(SourceFile:391)
+// 	at ui.views.B.a.R.actionPerformed(SourceFile:106)
+// 	at ui.utils.o.b.j.actionPerformed(SourceFile:108)
+// 	at java.desktop@9.0.4/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+// 	at ui.utils.o.b.k.fireActionPerformed(SourceFile:139)
+// 	at java.desktop@9.0.4/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+// 	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.processMouseEvent(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.JComponent.processMouseEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.processEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Container.processEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Container.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.dispatchEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Container.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Window.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.Component.dispatchEvent(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue.access$500(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue$3.run(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue$3.run(Unknown Source)
+// 	at java.base@9.0.4/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.base@9.0.4/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+// 	at java.base@9.0.4/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue$4.run(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue$4.run(Unknown Source)
+// 	at java.base@9.0.4/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.base@9.0.4/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventQueue.dispatchEvent(Unknown Source)
+// 	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+// 	at java.desktop@9.0.4/java.awt.EventDispatchThread.run(Unknown Source)
+// Thread: AWT-Windows
+// 	at java.desktop@9.0.4/sun.awt.windows.WToolkit.eventLoop(Native Method)
+// 	at java.desktop@9.0.4/sun.awt.windows.WToolkit.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Refresh Filesets Swing Worker
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.design.w.construct(SourceFile:2446)
+// 	at ui.frmwork.y.run(SourceFile:204)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Attach Listener
+// Thread: c
+// 	at java.base@9.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@9.0.4/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+// 	at java.base@9.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+// 	at java.base@9.0.4/java.util.concurrent.LinkedBlockingDeque.takeFirst(Unknown Source)
+// 	at java.base@9.0.4/java.util.concurrent.LinkedBlockingDeque.take(Unknown Source)
+// 	at java.base@9.0.4/sun.nio.fs.AbstractWatchService.take(Unknown Source)
+// 	at ui.utils.e.a.a.run(SourceFile:237)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Refresh Filesets Swing Worker
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.design.w.construct(SourceFile:2446)
+// 	at ui.frmwork.y.run(SourceFile:204)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: SyntheticaCleanerThread
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.StyleFactory$ComponentPropertyStore$1.run(StyleFactory.java:1846)
+// Thread: Monitor HEventQueue
+// 	at java.base@9.0.4/java.lang.Thread.dumpThreads(Native Method)
+// 	at java.base@9.0.4/java.lang.Thread.getAllStackTraces(Unknown Source)
+// 	at ui.utils.d.c.exx(SourceFile:484)
+// 	at ui.frmwork.b.e.construct(SourceFile:140)
+// 	at ui.frmwork.y.run(SourceFile:204)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: SyntheticaAnimation 50
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Signal Dispatcher
+// Thread: FileSystemWatchService
+// 	at java.base@9.0.4/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+// 	at java.base@9.0.4/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(Unknown Source)
+// 	at java.base@9.0.4/sun.nio.fs.WindowsWatchService$Poller.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Finalizer
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+// Thread: Thread-27
+// Thread: Process Messages
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.frmwork.d.h.construct(SourceFile:132)
+// 	at ui.frmwork.y.run(SourceFile:204)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Update Runs Swing Worker
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.experiment.A.construct(SourceFile:311)
+// 	at ui.frmwork.y.run(SourceFile:204)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: hw_ila_monitor
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.Object.wait(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.mainLoop(Unknown Source)
+// 	at java.base@9.0.4/java.util.TimerThread.run(Unknown Source)
+// Thread: SyntheticaAnimation 70
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Monitor File Timestamp Swing Worker
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at ui.views.e.construct(SourceFile:231)
+// 	at ui.frmwork.y.run(SourceFile:204)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: SyntheticaAnimation 50
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at com.jidesoft.plaf.synthetica.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:99)
+// Thread: Thread-1
+// Thread: Common-Cleaner
+// 	at java.base@9.0.4/java.lang.Object.wait(Native Method)
+// 	at java.base@9.0.4/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+// 	at java.base@9.0.4/jdk.internal.ref.CleanerImpl.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// 	at java.base@9.0.4/jdk.internal.misc.InnocuousThread.run(Unknown Source)
+// Thread: TimerQueue
+// 	at java.base@9.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@9.0.4/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+// 	at java.base@9.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+// 	at java.base@9.0.4/java.util.concurrent.DelayQueue.take(Unknown Source)
+// 	at java.desktop@9.0.4/javax.swing.TimerQueue.run(Unknown Source)
+// 	at java.base@9.0.4/java.lang.Thread.run(Unknown Source)
+// Thread: Image Animator 0
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at java.desktop@9.0.4/sun.awt.image.GifFrame.dispose(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.readImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.GifImageDecoder.produceImage(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.InputStreamImageSource.doFetch(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.fetchloop(Unknown Source)
+// 	at java.desktop@9.0.4/sun.awt.image.ImageFetcher.run(Unknown Source)
+// Thread: SyntheticaAnimation 25
+// 	at java.base@9.0.4/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// WARNING: HEventQueue.dispatchEvent() is taking  7793 ms.
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// Elapsed time: 18 seconds
+selectButton(PAResourceEtoH.FileGroupFacetTable_EXPAND_ALL, "Package IP_expand_all"); // B (f, cp)
+selectButton(PAResourceEtoH.FileGroupFacetTable_EXPAND_ALL, "Package IP_expand_all"); // B (f, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  11749 ms.
+// Tcl Message: ipx::merge_project_changes: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2601.934 ; gain = 0.000 
+// Elapsed time: 11 seconds
+selectButton(PAResourceEtoH.FileGroupFacetTable_EXPAND_ALL, "Package IP_expand_all"); // B (f, cp)
+selectButton(PAResourceEtoH.FileGroupFacetTable_EXPAND_ALL, "Package IP_expand_all"); // B (f, cp)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2087 ms.
+// Elapsed time: 24 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 7 [ipx::current_core] 
+// bx (cp):  Package IP : addNotify
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0' 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2603.727 ; gain = 0.586 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (cQ, cp)
+// bx (cp):  Refresh IP Catalog : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_module_reference design_1_sonar_v1_0_S00_AXI_0_0 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding cell -- xilinx.com:module_ref:sonar_v1_0_S00_AXI:1.0 - sonar_v1_0_S00_AXI_0 Successfully read diagram <design_1> from BD file <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  13713 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Upgrading 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd' 
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated design_1_sonar_v1_0_S00_AXI_0_0 to use current project options 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\ip_repo\edit_sonar_v1_0.srcs\sources_1\bd\design_1\design_1.bd>  
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:16 ; elapsed = 00:01:08 . Memory (MB): peak = 2620.211 ; gain = 16.484 update_module_reference: Time (s): cpu = 00:00:17 ; elapsed = 00:01:12 . Memory (MB): peak = 2620.211 ; gain = 16.484 
+// Elapsed time: 73 seconds
+dismissDialog("Refresh IP Catalog"); // bx (cp)
+// WARNING: HTimer (RSBApplyAutomationBar Update Bar Timer) is taking 467ms to process. Increasing delay to 3000 ms.
+// [Engine Memory]: 2,254 MB (+65417kb) [02:20:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  1432 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,351 MB. GUI used memory: 197 MB. Current time: 4/5/19, 1:17:27 PM EEST
+// [Engine Memory]: 2,429 MB (+65784kb) [02:20:20]
+// [GUI Memory]: 259 MB (+2017kb) [02:27:18]
+// Elapsed time: 449 seconds
+selectButton(PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN, "save_rsb_design"); // B (f, cp)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h (cQ, cp)
+// Tcl Message: current_project WAFBP 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// bx (cp):  Refresh IP Catalog : addNotify
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0'. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library'. 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 4534.734 ; gain = 20.641 
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project edit_sonar_v1_0 
+// Elapsed time: 10 seconds
+dismissDialog("Refresh IP Catalog"); // bx (cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  1168 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,538 MB. GUI used memory: 190 MB. Current time: 4/5/19, 1:25:08 PM EEST
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cp)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: current_project WAFBP 
+// bx (cp):  Upgrade IP : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Upgrading 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_sonar_0_0 (sonar_v1.0 1.0) from revision 6 to revision 7 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: upgrade_ip -srcset design_1 -vlnv xilinx.com:user:sonar:1.0 [get_ips  design_1_sonar_0_0] -log ip_upgrade.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips design_1_sonar_0_0] -no_script -sync -force -quiet 
+// aI (cp): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (C, I)
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_ALL_IP_INCLUDING_IP_CONTAINED, "Out of context per IP"); // a (Q, aI)
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a (Q, aI)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_APPLY_OPTIONS_AND_DISMISS_DIALOG_WITHOUT, "Apply"); // a (aI)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: delete_ip_run [get_files -of_objects [get_fileset design_1] F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] 
+// bx (cp):  Apply Synthesis Option : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd' from fileset 'design_1' to fileset 'sources_1'. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: set_property synth_checkpoint_mode None [get_files  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: PROJ_DESIGN_MODE_SET
+dismissDialog("Apply Synthesis Option"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,604 MB. GUI used memory: 187 MB. Current time: 4/5/19, 1:25:33 PM EEST
+// [Engine Memory]: 2,604 MB (+56377kb) [02:28:24]
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (C, J)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (cp)
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Validate Design : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+dismissDialog("Validate Design"); // bx (cp)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (C, I)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bx (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cp): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Create HDL Wrapper"); // a (cp)
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: make_wrapper -files [get_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+dismissDialog("Create HDL Wrapper"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1]", 1, true); // B (D, cp) - Node
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cQ, cp)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// bx (cp):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bx (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs]", 0, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1]", 1, true); // B (D, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1, Synthesis]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1, Synthesis, design_1.vhd]", 9, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, design_1]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cp): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Create HDL Wrapper"); // a (cp)
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: make_wrapper -files [get_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+dismissDialog("Create HDL Wrapper"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cp): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Create HDL Wrapper"); // a (cp)
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: make_wrapper -files [get_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+dismissDialog("Create HDL Wrapper"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,643 MB. GUI used memory: 188 MB. Current time: 4/5/19, 1:27:13 PM EEST
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 6 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cp)
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . INFO: [BD 41-1029] Generation completed for the IP Integrator block sonar_0 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block vio_0 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Apr  5 13:27:39 2019] Launched synth_1... Run output will be captured here: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/runme.log [Fri Apr  5 13:27:39 2019] Launched impl_1... Run output will be captured here: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 4565.516 ; gain = 0.000 
+// Elapsed time: 12 seconds
+dismissDialog("Generate Bitstream"); // bx (cp)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 282 MB (+9904kb) [02:47:20]
+// Elapsed time: 1090 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  1782 ms.
+// Elapsed time: 28 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cp): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Export Hardware"); // X (cp)
+// Tcl Message: file copy -force F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/impl_1/design_1_wrapper.sysdef F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cp): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Export Hardware"); // X (cp)
+// Tcl Message: file copy -force F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/impl_1/design_1_wrapper.sysdef F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk -hwspec F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk -hwspec F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,730 MB. GUI used memory: 191 MB. Current time: 4/5/19, 1:49:58 PM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,763 MB. GUI used memory: 191 MB. Current time: 4/5/19, 1:54:29 PM EEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1210 ms.
+// [Engine Memory]: 2,763 MB (+29753kb) [02:57:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,777 MB. GUI used memory: 191 MB. Current time: 4/5/19, 2:00:39 PM EEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1321 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 191 MB. Current time: 4/5/19, 2:10:34 PM EEST
+// Elapsed time: 1614 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aI (aF, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+// Tcl Message: current_project edit_sonar_v1_0 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 221 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 212, 363); // cl (w, cp)
+// Elapsed time: 172 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 35, 364); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 35, 364, false, false, false, false, true); // cl (w, cp) - Double Click

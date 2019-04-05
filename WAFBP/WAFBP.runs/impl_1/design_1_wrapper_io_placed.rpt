@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date                      : Mon Apr  1 22:58:33 2019
+| Date                      : Fri Apr  5 13:36:26 2019
 | Host                      : alexi-PC running 64-bit Service Pack 1  (build 7601)
 | Command                   : report_io -file design_1_wrapper_io_placed.rpt
 | Design                    : design_1_wrapper
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           142 |
+|           144 |
 +---------------+
 
 
@@ -344,7 +344,7 @@ Table of Contents
 | T7         |                      |            | GND                     | GND           |                    |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | T8         |                      | Dedicated  | VCCO_13                 | VCCO          |                    |      13 |            |      |                     |                      |   any** |            |           |          |      |                  |              |                   |              |
 | T9         |                      |            | NC                      | Not Connected |                    |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| T10        |                      | High Range | IO_L1N_T0_34            | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| T10        | W_Echo_0             | High Range | IO_L1N_T0_34            | INPUT         | LVCMOS33           |      34 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | T11        |                      | High Range | IO_L1P_T0_34            | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | T12        |                      | High Range | IO_L2P_T0_34            | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | T13        |                      |            | GND                     | GND           |                    |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
@@ -409,7 +409,7 @@ Table of Contents
 | W12        |                      |            | GND                     | GND           |                    |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | W13        | sws_4bits_tri_i[2]   | High Range | IO_L4N_T0_34            | INPUT         | LVCMOS33           |      34 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W14        |                      | High Range | IO_L8P_T1_34            | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| W15        |                      | High Range | IO_L10N_T1_34           | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| W15        | W_Trig_0             | High Range | IO_L10N_T1_34           | OUTPUT        | LVCMOS33           |      34 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W16        |                      | High Range | IO_L18N_T2_34           | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | W17        |                      | High Range | VCCO_34                 | VCCO          |                    |      34 |            |      |                     |                      |    3.30 |            |           |          |      |                  |              |                   |              |
 | W18        |                      | High Range | IO_L22P_T3_34           | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |

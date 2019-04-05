@@ -29,11 +29,15 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:zybo-z7-10:part0:1.0 [current_project]
-set_property ip_repo_paths f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library [current_project]
+set_property ip_repo_paths {
+  f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0
+  f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0
+  f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library
+} [current_project]
 update_ip_catalog
 set_property ip_output_repo f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/imports/hdl/design_1_wrapper.vhd
+read_vhdl -library xil_defaultlib F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
 add_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
 set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc]
@@ -42,10 +46,9 @@ set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walk
 set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc]
 set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc]
-set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/design_1_rst_ps7_0_50M_1_board.xdc]
 set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/design_1_rst_ps7_0_50M_1.xdc]
-set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/design_1_rst_ps7_0_50M_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/design_1_vio_0_1.xdc]
 set_property used_in_implementation false [get_files -all f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
 

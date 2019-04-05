@@ -1,0 +1,20 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z010clg400-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "Pmod_max_sonar_0": ""
+    },
+    "components": {
+      "Pmod_max_sonar_0": {
+        "vlnv": "xilinx.com:user:Pmod_max_sonar:1.0",
+        "xci_name": "design_1_Pmod_max_sonar_0_0"
+      }
+    }
+  }
+}

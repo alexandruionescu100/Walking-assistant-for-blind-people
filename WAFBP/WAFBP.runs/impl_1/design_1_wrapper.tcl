@@ -71,7 +71,11 @@ set rc [catch {
   set_param project.singleFileAddWarning.threshold 0
   set_property webtalk.parent_dir F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.cache/wt [current_project]
   set_property parent.project_path F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.xpr [current_project]
-  set_property ip_repo_paths F:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library [current_project]
+  set_property ip_repo_paths {
+  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0
+  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0
+  F:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library
+} [current_project]
   update_ip_catalog
   set_property ip_output_repo F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

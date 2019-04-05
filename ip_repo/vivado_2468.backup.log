@@ -1,0 +1,113 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Apr  4 20:59:04 2019
+# Process ID: 2468
+# Current directory: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12224 F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\ip_repo\edit_sonar_v1_0.xpr
+# Log file: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/vivado.log
+# Journal file: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 791.496 ; gain = 178.996
+update_compile_order -fileset sources_1
+open_bd_design {F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:module_ref:sonar_v1_0_S00_AXI:1.0 - sonar_v1_0_S00_AXI_0
+Successfully read diagram <design_1> from BD file <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 885.332 ; gain = 65.672
+ipx::open_ipxact_file {F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\ip_repo\sonar_1.0\component.xml}
+WARNING: [IP_Flow 19-5226] Project source file 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd'.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/hdl/sonar_v1_0_S00_AXI.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/hdl/sonar_v1_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/hdl/sonar_v1_0_S00_AXI.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/hdl/sonar_v1_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+validate_bd_design
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/sonar_v1_0_S00_AXI_0/clk
+/sonar_v1_0_S00_AXI_0/S_AXI_ACLK
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+update_module_reference design_1_sonar_v1_0_S00_AXI_0_0
+CRITICAL WARNING: [IP_Flow 19-4635] Port 'distance_value': VHDL port type 'integer' is not supported in this release.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXI' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXI_ARESETN' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXI_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXI_ARESETN': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXI_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'S_AXI'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXI_ACLK': Added interface parameter 'ASSOCIATED_RESET' with value 'S_AXI_ARESETN'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library'.
+Upgrading 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_sonar_v1_0_S00_AXI_0_0 from sonar_v1_0_S00_AXI_v1_0 1.0 to sonar_v1_0_S00_AXI_v1_0 1.0
+Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\ip_repo\edit_sonar_v1_0.srcs\sources_1\bd\design_1\design_1.bd> 
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd'.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd'.
+CRITICAL WARNING: [IP_Flow 19-4635] Port 'W_Distance_value': VHDL port type 'integer' is not supported in this release.
+CRITICAL WARNING: [IP_Flow 19-4834] IP port (Clk) was removed from the interface 'Clk'. Please review the IP interface 'Clk'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'W_Clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.
+ipx::add_port_map CLK [ipx::get_bus_interfaces Clk -of_objects [ipx::current_core]]
+set_property physical_name W_Clk [ipx::get_port_maps CLK -of_objects [ipx::get_bus_interfaces Clk -of_objects [ipx::current_core]]]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'
+CRITICAL WARNING: [HDL 9-806] Syntax error near "sw_int". [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/hdl/sonar_v1_0_S00_AXI.vhd:448]
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd'.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd'.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'
+update_module_reference design_1_sonar_v1_0_S00_AXI_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXI' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXI_ARESETN' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXI_ACLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXI_ARESETN': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXI_ACLK': Added interface parameter 'ASSOCIATED_BUSIF' with value 'S_AXI'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXI_ACLK': Added interface parameter 'ASSOCIATED_RESET' with value 'S_AXI_ARESETN'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library'.
+Upgrading 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/edit_sonar_v1_0.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_sonar_v1_0_S00_AXI_0_0 from sonar_v1_0_S00_AXI_v1_0 1.0 to sonar_v1_0_S00_AXI_v1_0 1.0
+Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\ip_repo\edit_sonar_v1_0.srcs\sources_1\bd\design_1\design_1.bd> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  4 23:07:19 2019...
