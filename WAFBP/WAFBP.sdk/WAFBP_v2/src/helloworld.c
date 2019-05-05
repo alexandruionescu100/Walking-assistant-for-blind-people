@@ -50,6 +50,7 @@
 #include "xil_printf.h"
 #include "xbasic_types.h"
 #include "xparameters.h"
+#include <xgpio.h>
 
 Xuint32 *baseaddr_p = (Xuint32 *)XPAR_SONAR_0_S00_AXI_BASEADDR;
 
@@ -61,17 +62,33 @@ int main()
     int sensor_1_samples[10];
     int distance_sensor_1=0;
 
+    	XGpio input, output,buzzer;
+    	int button_data = 0;
+    	int switch_data = 0;
+
+       XGpio_Initialize(&input, XPAR_AXI_GPIO_0_DEVICE_ID);	//initialize input XGpio variable
+       XGpio_Initialize(&output, XPAR_AXI_GPIO_1_DEVICE_ID);	//initialize output XGpio variable
+       XGpio_Initialize(&buzzer, XPAR_AXI_GPIO_2_DEVICE_ID);	//initialize output XGpio variable
+
+       XGpio_SetDataDirection(&input, 1, 0xF);			//set first channel tristate buffer to input
+       XGpio_SetDataDirection(&input, 2, 0xF);			//set second channel tristate buffer to input
+
+       XGpio_SetDataDirection(&output, 1, 0x0);		//set first channel tristate buffer to output
+       XGpio_SetDataDirection(&buzzer, 1, 0x0);		//set first channel tristate buffer to output
+
+		// Write values to register 0
+		*(baseaddr_p+0) = 0x0000000F;
+		usleep(100000);
+
+
     init_platform();
 
     while(1){
-			print("Hello World\n\r");
+			print("Walking Assistant for blind people\n\r");
 
-			// Write multiplier inputs to register 0
-			*(baseaddr_p+0) = 0x00020003;
+			*(baseaddr_p+0) = 0x0000000F;
 			xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+0));
-
-			// Read multiplier output from register 1
-			//xil_printf("Read : 0x%08x \n\r", *(baseaddr_p+1));
+			xil_printf("Wrote: 0x%08x \n\r", *(baseaddr_p+2));
 
 			//read in a buffer 10 samples from radar
 			for(int i=0;i<10;i++)
@@ -93,9 +110,20 @@ int main()
 			}
 			average = average/average_cnt;
 			if(average!=0)
-			distance_sensor_1=average;
+			distance_sensor_1=average; //we filter the "0" cm readings
 
 			xil_printf("Sonar1 : %d cm \n\r", distance_sensor_1);
+
+			if(distance_sensor_1<50)
+			{
+				XGpio_DiscreteWrite(&output, 1, 15);
+				XGpio_DiscreteWrite(&buzzer, 1, 0);
+			}
+			else
+			{
+				XGpio_DiscreteWrite(&output, 1, 0);
+				XGpio_DiscreteWrite(&buzzer, 1, 1);
+			}
 
 			usleep(200000);			//delay
     }

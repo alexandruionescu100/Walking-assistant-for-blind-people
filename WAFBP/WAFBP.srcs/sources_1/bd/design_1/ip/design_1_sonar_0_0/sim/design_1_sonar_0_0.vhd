@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:sonar:1.0
--- IP Revision: 7
+-- IP Revision: 24
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -59,6 +59,9 @@ ENTITY design_1_sonar_0_0 IS
     W_Echo : IN STD_LOGIC;
     W_Trig : OUT STD_LOGIC;
     W_Distance_value : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    W_Enable : IN STD_LOGIC;
+    W_Next_sonar_status : IN STD_LOGIC;
+    W_Reading_done : OUT STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s00_axi_awvalid : IN STD_LOGIC;
@@ -96,6 +99,9 @@ ARCHITECTURE design_1_sonar_0_0_arch OF design_1_sonar_0_0 IS
       W_Echo : IN STD_LOGIC;
       W_Trig : OUT STD_LOGIC;
       W_Distance_value : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+      W_Enable : IN STD_LOGIC;
+      W_Next_sonar_status : IN STD_LOGIC;
+      W_Reading_done : OUT STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
       s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
       s00_axi_awvalid : IN STD_LOGIC;
@@ -159,6 +165,9 @@ BEGIN
       W_Echo => W_Echo,
       W_Trig => W_Trig,
       W_Distance_value => W_Distance_value,
+      W_Enable => W_Enable,
+      W_Next_sonar_status => W_Next_sonar_status,
+      W_Reading_done => W_Reading_done,
       s00_axi_awaddr => s00_axi_awaddr,
       s00_axi_awprot => s00_axi_awprot,
       s00_axi_awvalid => s00_axi_awvalid,

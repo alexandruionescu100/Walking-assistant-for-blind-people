@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:sonar:1.0
--- IP Revision: 7
+-- IP Revision: 24
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -59,6 +59,9 @@ ENTITY design_1_sonar_0_0 IS
     W_Echo : IN STD_LOGIC;
     W_Trig : OUT STD_LOGIC;
     W_Distance_value : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    W_Enable : IN STD_LOGIC;
+    W_Next_sonar_status : IN STD_LOGIC;
+    W_Reading_done : OUT STD_LOGIC;
     s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
     s00_axi_awvalid : IN STD_LOGIC;
@@ -96,6 +99,9 @@ ARCHITECTURE design_1_sonar_0_0_arch OF design_1_sonar_0_0 IS
       W_Echo : IN STD_LOGIC;
       W_Trig : OUT STD_LOGIC;
       W_Distance_value : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+      W_Enable : IN STD_LOGIC;
+      W_Next_sonar_status : IN STD_LOGIC;
+      W_Reading_done : OUT STD_LOGIC;
       s00_axi_awaddr : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
       s00_axi_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
       s00_axi_awvalid : IN STD_LOGIC;
@@ -124,7 +130,7 @@ ARCHITECTURE design_1_sonar_0_0_arch OF design_1_sonar_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF design_1_sonar_0_0_arch : ARCHITECTURE IS "design_1_sonar_0_0,sonar_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF design_1_sonar_0_0_arch: ARCHITECTURE IS "design_1_sonar_0_0,sonar_v1_0,{x_ipProduct=Vivado 2018.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=sonar,x_ipVersion=1.0,x_ipCoreRevision=7,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF design_1_sonar_0_0_arch: ARCHITECTURE IS "design_1_sonar_0_0,sonar_v1_0,{x_ipProduct=Vivado 2018.3,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=sonar,x_ipVersion=1.0,x_ipCoreRevision=24,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER OF s00_axi_aresetn: SIGNAL IS "XIL_INTERFACENAME S00_AXI_RST, POLARITY ACTIVE_LOW, INSERT_VIP 0";
@@ -165,6 +171,9 @@ BEGIN
       W_Echo => W_Echo,
       W_Trig => W_Trig,
       W_Distance_value => W_Distance_value,
+      W_Enable => W_Enable,
+      W_Next_sonar_status => W_Next_sonar_status,
+      W_Reading_done => W_Reading_done,
       s00_axi_awaddr => s00_axi_awaddr,
       s00_axi_awprot => s00_axi_awprot,
       s00_axi_awvalid => s00_axi_awvalid,

@@ -2,35 +2,35 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Fri Apr  5 13:27:51 2019
-# Process ID: 10676
+# Start of session at: Sat May  4 21:48:55 2019
+# Process ID: 10448
 # Current directory: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/design_1_wrapper.vds
 # Journal file: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 330.277 ; gain = 87.496
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 330.480 ; gain = 81.371
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/Pmod_max_sonar_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/digilent/vivado_library_pmod/vivado-library-2018.2-1/vivado-library'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
-update_ip_catalog: Time (s): cpu = 00:00:09 ; elapsed = 00:00:24 . Memory (MB): peak = 390.340 ; gain = 60.063
-add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 414.691 ; gain = 24.352
+update_ip_catalog: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 391.086 ; gain = 60.605
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 414.809 ; gain = 23.723
 Command: synth_design -top design_1_wrapper -part xc7z010clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 11700 
+INFO: Helper process launched with PID 6612 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 538.012 ; gain = 114.449
+Starting RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 538.059 ; gain = 114.387
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:45]
-INFO: [Synth 8-3491] module 'design_1' declared at 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1330' bound to instance 'design_1_i' of component 'design_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:103]
-INFO: [Synth 8-638] synthesizing module 'design_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1367]
-INFO: [Synth 8-3491] module 'design_1_axi_gpio_0_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:59' bound to instance 'axi_gpio_0' of component 'design_1_axi_gpio_0_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1704]
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:46]
+INFO: [Synth 8-3491] module 'design_1' declared at 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1847' bound to instance 'design_1_i' of component 'design_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'design_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1885]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_0_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:59' bound to instance 'axi_gpio_0' of component 'design_1_axi_gpio_0_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:2281]
 INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:85]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
@@ -201,7 +201,7 @@ WARNING: [Synth 8-6014] Unused sequential element Dual.ALLIN0_ND_G2.READ_REG2_GE
 INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
 INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:1351]
 INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_0_0' (8#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:85]
-INFO: [Synth 8-3491] module 'design_1_axi_gpio_1_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/synth/design_1_axi_gpio_1_0.vhd:59' bound to instance 'axi_gpio_1' of component 'design_1_axi_gpio_1_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1728]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_1_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/synth/design_1_axi_gpio_1_0.vhd:59' bound to instance 'axi_gpio_1' of component 'design_1_axi_gpio_1_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:2305]
 INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/synth/design_1_axi_gpio_1_0.vhd:86]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
@@ -260,7 +260,84 @@ WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT0_ND.READ_REG_G
 INFO: [Synth 8-256] done synthesizing module 'GPIO_Core__parameterized0' (8#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
 INFO: [Synth 8-256] done synthesizing module 'axi_gpio__parameterized1' (8#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:1351]
 INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_1_0' (9#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/synth/design_1_axi_gpio_1_0.vhd:86]
-INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1753]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_2_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/synth/design_1_axi_gpio_2_0.vhd:59' bound to instance 'axi_gpio_2' of component 'design_1_axi_gpio_2_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:2330]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_2_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/synth/design_1_axi_gpio_2_0.vhd:84]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_GPIO_WIDTH bound to: 1 - type: integer 
+	Parameter C_GPIO2_WIDTH bound to: 32 - type: integer 
+	Parameter C_ALL_INPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS_2 bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS bound to: 1 - type: integer 
+	Parameter C_ALL_OUTPUTS_2 bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_PRESENT bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT bound to: 32'b11111111111111111111111111111111 
+	Parameter C_IS_DUAL bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
+INFO: [Synth 8-3491] module 'axi_gpio' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:1265' bound to instance 'U0' of component 'axi_gpio' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/synth/design_1_axi_gpio_2_0.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio__parameterized3' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:1351]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_GPIO_WIDTH bound to: 1 - type: integer 
+	Parameter C_GPIO2_WIDTH bound to: 32 - type: integer 
+	Parameter C_ALL_INPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS_2 bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS bound to: 1 - type: integer 
+	Parameter C_ALL_OUTPUTS_2 bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_PRESENT bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT bound to: 0 - type: integer 
+	Parameter C_TRI_DEFAULT bound to: -1 - type: integer 
+	Parameter C_IS_DUAL bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT_2 bound to: 0 - type: integer 
+	Parameter C_TRI_DEFAULT_2 bound to: -1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core__parameterized1' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+	Parameter C_DW bound to: 32 - type: integer 
+	Parameter C_AW bound to: 9 - type: integer 
+	Parameter C_GPIO_WIDTH bound to: 1 - type: integer 
+	Parameter C_GPIO2_WIDTH bound to: 32 - type: integer 
+	Parameter C_MAX_GPIO_WIDTH bound to: 1 - type: integer 
+	Parameter C_INTERRUPT_PRESENT bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT bound to: 0 - type: integer 
+	Parameter C_TRI_DEFAULT bound to: -1 - type: integer 
+	Parameter C_IS_DUAL bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS bound to: 1 - type: integer 
+	Parameter C_ALL_OUTPUTS_2 bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS_2 bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT_2 bound to: 0 - type: integer 
+	Parameter C_TRI_DEFAULT_2 bound to: -1 - type: integer 
+	Parameter C_FAMILY bound to: zynq - type: string 
+INFO: [Synth 8-226] default block is never used [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:443]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter C_CDC_TYPE bound to: 1 - type: integer 
+	Parameter C_RESET_STATE bound to: 0 - type: integer 
+	Parameter C_SINGLE_BIT bound to: 0 - type: integer 
+	Parameter C_FLOP_INPUT bound to: 0 - type: integer 
+	Parameter C_VECTOR_WIDTH bound to: 1 - type: integer 
+	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (9#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.ALLOUT_ND.READ_REG_GEN[0].GPIO_DBus_i_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element Not_Dual.gpio_Data_In_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:486]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core__parameterized1' (9#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio__parameterized3' (9#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:1351]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_2_0' (10#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/synth/design_1_axi_gpio_2_0.vhd:84]
+INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:2353]
 INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
 INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
 	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
@@ -322,23 +399,27 @@ INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_sys
 INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1347]
 INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1348]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
-INFO: [Synth 8-6155] done synthesizing module 'BUFG' (10#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (11#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
 INFO: [Synth 8-6157] synthesizing module 'BIBUF' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:270]
-INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (11#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:270]
+INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (12#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:270]
 INFO: [Synth 8-6157] synthesizing module 'PS7' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41553]
-INFO: [Synth 8-6155] done synthesizing module 'PS7' (12#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41553]
-INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (13#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
+INFO: [Synth 8-6155] done synthesizing module 'PS7' (13#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41553]
+INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (14#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
 WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:323]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (14#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
-INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:749]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (15#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps7_0_axi_periph_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1001]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_15SPJYW' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:57]
-INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_15SPJYW' (15#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_15SPJYW' (16#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:57]
 INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_XU9C55' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:158]
-INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_XU9C55' (16#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:158]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_XU9C55' (17#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:158]
 INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_14WQB4R' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:263]
-INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_14WQB4R' (17#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:263]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:393]
-INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:576]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_14WQB4R' (18#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_YFYJ3U' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:374]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_YFYJ3U' (19#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:374]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_17KQ732' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:481]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_17KQ732' (20#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:481]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_UYSKKA' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:605]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:788]
 INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_axi_protocol_converter' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
 	Parameter C_FAMILY bound to: zynq - type: string 
@@ -384,20 +465,20 @@ INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_cmd
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_incr_cmd' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3092]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_incr_cmd' (18#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3092]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_incr_cmd' (21#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3092]
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_wrap_cmd' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2902]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_wrap_cmd' (19#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2902]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_cmd_translator' (20#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3464]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_wrap_cmd' (22#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2902]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_cmd_translator' (23#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3464]
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_wr_cmd_fsm' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3224]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE_WAIT bound to: 2'b11 
 INFO: [Synth 8-226] default block is never used [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3277]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_wr_cmd_fsm' (21#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3224]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_aw_channel' (22#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3971]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_wr_cmd_fsm' (24#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3224]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_aw_channel' (25#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3971]
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_b_channel' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3606]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter LP_RESP_OKAY bound to: 2'b00 
@@ -418,7 +499,7 @@ INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_sim
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo' (23#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo' (26#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
 	Parameter C_WIDTH bound to: 2 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
@@ -427,8 +508,8 @@ INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_sim
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized0' (23#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_b_channel' (24#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3606]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized0' (26#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_b_channel' (27#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3606]
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_ar_channel' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4082]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -440,8 +521,8 @@ INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_rd_
 INFO: [Synth 8-226] default block is never used [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3395]
 WARNING: [Synth 8-6014] Unused sequential element state_r1_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3383]
 WARNING: [Synth 8-6014] Unused sequential element s_arlen_r_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3384]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_rd_cmd_fsm' (25#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3334]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_ar_channel' (26#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4082]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_rd_cmd_fsm' (28#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3334]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_ar_channel' (29#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4082]
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_r_channel' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3811]
 	Parameter C_ID_WIDTH bound to: 12 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
@@ -459,7 +540,7 @@ INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_sim
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized1' (26#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized1' (29#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
 INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized2' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
 	Parameter C_WIDTH bound to: 13 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
@@ -468,8 +549,8 @@ INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_18_b2s_sim
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized2' (26#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_r_channel' (27#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3811]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized2' (29#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s_r_channel' (30#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3811]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axi_register_slice' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:2637]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
@@ -585,22 +666,22 @@ INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_regist
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 66 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice' (28#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 49 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized0' (28#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized0' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized1' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 14 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized1' (28#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized1' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized2' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 47 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized2' (28#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized2' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
@@ -693,7 +774,7 @@ INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' 
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (29#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (32#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
 INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
 	Parameter C_AXI_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 12 - type: integer 
@@ -786,8 +867,8 @@ INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' 
 	Parameter G_AXI_RUSER_INDEX bound to: 47 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 47 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (30#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axi_register_slice' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:2637]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (33#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axi_register_slice' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:2637]
 WARNING: [Synth 8-350] instance 'SI_REG' of module 'axi_register_slice_v2_1_18_axi_register_slice' requires 93 connections, but only 92 given [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4392]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axi_register_slice__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:2637]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
@@ -904,22 +985,22 @@ INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_regist
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 35 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized3' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized3' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized4' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized4' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized4' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized5' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 2 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized5' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized5' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized6' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_DATA_WIDTH bound to: 34 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized6' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized6' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
@@ -1012,7 +1093,7 @@ INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
 INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
@@ -1105,26 +1186,26 @@ INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__
 	Parameter G_AXI_RUSER_INDEX bound to: 34 - type: integer 
 	Parameter G_AXI_RUSER_WIDTH bound to: 0 - type: integer 
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axi_register_slice__parameterized0' (31#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:2637]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axi_register_slice__parameterized0' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:2637]
 WARNING: [Synth 8-350] instance 'MI_REG' of module 'axi_register_slice_v2_1_18_axi_register_slice' requires 93 connections, but only 92 given [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4647]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s' (32#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4226]
-INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_axi_protocol_converter' (33#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (34#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (35#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:393]
-INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59' bound to instance 'xbar' of component 'design_1_xbar_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1246]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_b2s' (35#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4226]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_18_axi_protocol_converter' (36#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4808]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (37#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_UYSKKA' (38#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:605]
+INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59' bound to instance 'xbar' of component 'design_1_xbar_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1692]
 INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_axi_crossbar' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4884]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_SLAVE_SLOTS bound to: 1 - type: integer 
-	Parameter C_NUM_MASTER_SLOTS bound to: 3 - type: integer 
+	Parameter C_NUM_MASTER_SLOTS bound to: 5 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_NUM_ADDR_RANGES bound to: 1 - type: integer 
-	Parameter C_M_AXI_BASE_ADDR bound to: 192'b000000000000000000000000000000000100001111000000000000000000000000000000000000000000000000000000010000010010000100000000000000000000000000000000000000000000000001000001001000000000000000000000 
-	Parameter C_M_AXI_ADDR_WIDTH bound to: 96'b000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000 
+	Parameter C_M_AXI_BASE_ADDR bound to: 320'b00000000000000000000000000000000010000010010001000000000000000001111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000000000000000000000000000000000000000000000000000000010000010010000100000000000000000000000000000000000000000000000001000001001000000000000000000000 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 160'b0000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000 
 	Parameter C_S_AXI_BASE_ID bound to: 0 - type: integer 
 	Parameter C_S_AXI_THREAD_ID_WIDTH bound to: 0 - type: integer 
 	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer 
@@ -1133,16 +1214,16 @@ INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_axi_crossbar' [f:
 	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
-	Parameter C_M_AXI_WRITE_CONNECTIVITY bound to: 96'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
-	Parameter C_M_AXI_READ_CONNECTIVITY bound to: 96'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+	Parameter C_M_AXI_WRITE_CONNECTIVITY bound to: 160'b0000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+	Parameter C_M_AXI_READ_CONNECTIVITY bound to: 160'b0000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 	Parameter C_R_REGISTER bound to: 1 - type: integer 
 	Parameter C_S_AXI_SINGLE_THREAD bound to: 1 - type: integer 
 	Parameter C_S_AXI_WRITE_ACCEPTANCE bound to: 1 - type: integer 
 	Parameter C_S_AXI_READ_ACCEPTANCE bound to: 1 - type: integer 
-	Parameter C_M_AXI_WRITE_ISSUING bound to: 96'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
-	Parameter C_M_AXI_READ_ISSUING bound to: 96'b000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+	Parameter C_M_AXI_WRITE_ISSUING bound to: 160'b0000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
+	Parameter C_M_AXI_READ_ISSUING bound to: 160'b0000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001 
 	Parameter C_S_AXI_ARB_PRIORITY bound to: 0 - type: integer 
-	Parameter C_M_AXI_SECURE bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_M_AXI_SECURE bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_CONNECTIVITY_MODE bound to: 0 - type: integer 
 	Parameter P_ONES bound to: 65'b11111111111111111111111111111111111111111111111111111111111111111 
 	Parameter P_S_AXI_BASE_ID bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
@@ -1152,28 +1233,28 @@ INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_axi_crossbar' [f:
 	Parameter P_AXILITE bound to: 2 - type: integer 
 	Parameter P_AXILITE_SIZE bound to: 3'b010 
 	Parameter P_INCR bound to: 2'b01 
-	Parameter P_M_AXI_SUPPORTS_WRITE bound to: 3'b111 
-	Parameter P_M_AXI_SUPPORTS_READ bound to: 3'b111 
+	Parameter P_M_AXI_SUPPORTS_WRITE bound to: 5'b11111 
+	Parameter P_M_AXI_SUPPORTS_READ bound to: 5'b11111 
 	Parameter P_S_AXI_SUPPORTS_WRITE bound to: 1'b1 
 	Parameter P_S_AXI_SUPPORTS_READ bound to: 1'b1 
 	Parameter C_DEBUG bound to: 1 - type: integer 
 	Parameter P_RANGE_CHECK bound to: 1 - type: integer 
 	Parameter P_ADDR_DECODE bound to: 1 - type: integer 
-	Parameter P_M_AXI_ERR_MODE bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter P_M_AXI_ERR_MODE bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter P_LEN bound to: 8 - type: integer 
 	Parameter P_LOCK bound to: 1 - type: integer 
 	Parameter P_FAMILY bound to: zynq - type: string 
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_crossbar_sasd' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_SLAVE_SLOTS bound to: 1 - type: integer 
-	Parameter C_NUM_MASTER_SLOTS bound to: 3 - type: integer 
+	Parameter C_NUM_MASTER_SLOTS bound to: 5 - type: integer 
 	Parameter C_NUM_ADDR_RANGES bound to: 1 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
-	Parameter C_M_AXI_BASE_ADDR bound to: 192'b000000000000000000000000000000000100001111000000000000000000000000000000000000000000000000000000010000010010000100000000000000000000000000000000000000000000000001000001001000000000000000000000 
-	Parameter C_M_AXI_HIGH_ADDR bound to: 192'b000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000010010000111111111111111110000000000000000000000000000000001000001001000001111111111111111 
+	Parameter C_M_AXI_BASE_ADDR bound to: 320'b00000000000000000000000000000000010000010010001000000000000000001111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000000000000000000000000000000000000000000000000000000010000010010000100000000000000000000000000000000000000000000000001000001001000000000000000000000 
+	Parameter C_M_AXI_HIGH_ADDR bound to: 320'b00000000000000000000000000000000010000010010001011111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000010010000111111111111111110000000000000000000000000000000001000001001000001111111111111111 
 	Parameter C_S_AXI_BASE_ID bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_S_AXI_HIGH_ID bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_AXI_SUPPORTS_USER_SIGNALS bound to: 0 - type: integer 
@@ -1184,11 +1265,11 @@ INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_crossbar_sasd' [f
 	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
 	Parameter C_S_AXI_SUPPORTS_WRITE bound to: 1'b1 
 	Parameter C_S_AXI_SUPPORTS_READ bound to: 1'b1 
-	Parameter C_M_AXI_SUPPORTS_WRITE bound to: 3'b111 
-	Parameter C_M_AXI_SUPPORTS_READ bound to: 3'b111 
+	Parameter C_M_AXI_SUPPORTS_WRITE bound to: 5'b11111 
+	Parameter C_M_AXI_SUPPORTS_READ bound to: 5'b11111 
 	Parameter C_S_AXI_ARB_PRIORITY bound to: 0 - type: integer 
-	Parameter C_M_AXI_SECURE bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter C_M_AXI_ERR_MODE bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_M_AXI_SECURE bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_M_AXI_ERR_MODE bound to: 160'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_R_REGISTER bound to: 1 - type: integer 
 	Parameter C_RANGE_CHECK bound to: 1 - type: integer 
 	Parameter C_ADDR_DECODE bound to: 1 - type: integer 
@@ -1196,9 +1277,9 @@ INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_crossbar_sasd' [f
 	Parameter P_AXI4 bound to: 0 - type: integer 
 	Parameter P_AXI3 bound to: 1 - type: integer 
 	Parameter P_AXILITE bound to: 2 - type: integer 
-	Parameter P_NUM_MASTER_SLOTS_DE bound to: 4 - type: integer 
-	Parameter P_NUM_MASTER_SLOTS_LOG bound to: 2 - type: integer 
-	Parameter P_NUM_MASTER_SLOTS_DE_LOG bound to: 2 - type: integer 
+	Parameter P_NUM_MASTER_SLOTS_DE bound to: 6 - type: integer 
+	Parameter P_NUM_MASTER_SLOTS_LOG bound to: 3 - type: integer 
+	Parameter P_NUM_MASTER_SLOTS_DE_LOG bound to: 3 - type: integer 
 	Parameter P_NUM_SLAVE_SLOTS_LOG bound to: 1 - type: integer 
 	Parameter P_AXI_AUSER_WIDTH bound to: 1 - type: integer 
 	Parameter P_AXI_WID_WIDTH bound to: 1 - type: integer 
@@ -1208,8 +1289,8 @@ INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_crossbar_sasd' [f
 	Parameter P_WMESG_WIDTH bound to: 39 - type: integer 
 	Parameter P_AXILITE_ERRMODE bound to: 1 - type: integer 
 	Parameter P_NONSECURE_BIT bound to: 1 - type: integer 
-	Parameter P_M_SECURE_MASK bound to: 3'b000 
-	Parameter P_M_AXILITE_MASK bound to: 3'b000 
+	Parameter P_M_SECURE_MASK bound to: 5'b00000 
+	Parameter P_M_AXILITE_MASK bound to: 5'b00000 
 	Parameter P_FIXED bound to: 2'b00 
 	Parameter P_BYPASS bound to: 0 - type: integer 
 	Parameter P_LIGHTWT bound to: 7 - type: integer 
@@ -1218,16 +1299,16 @@ INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_crossbar_sasd' [f
 	Parameter P_DECERR bound to: 2'b11 
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_addr_decoder' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
 	Parameter C_FAMILY bound to: zynq - type: string 
-	Parameter C_NUM_TARGETS bound to: 3 - type: integer 
-	Parameter C_NUM_TARGETS_LOG bound to: 2 - type: integer 
+	Parameter C_NUM_TARGETS bound to: 5 - type: integer 
+	Parameter C_NUM_TARGETS_LOG bound to: 3 - type: integer 
 	Parameter C_NUM_RANGES bound to: 1 - type: integer 
 	Parameter C_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_TARGET_ENC bound to: 1 - type: integer 
 	Parameter C_TARGET_HOT bound to: 1 - type: integer 
 	Parameter C_REGION_ENC bound to: 1 - type: integer 
-	Parameter C_BASE_ADDR bound to: 192'b000000000000000000000000000000000100001111000000000000000000000000000000000000000000000000000000010000010010000100000000000000000000000000000000000000000000000001000001001000000000000000000000 
-	Parameter C_HIGH_ADDR bound to: 192'b000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000010010000111111111111111110000000000000000000000000000000001000001001000001111111111111111 
-	Parameter C_TARGET_QUAL bound to: 4'b0111 
+	Parameter C_BASE_ADDR bound to: 320'b00000000000000000000000000000000010000010010001000000000000000001111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000100001111000000000000000000000000000000000000000000000000000000010000010010000100000000000000000000000000000000000000000000000001000001001000000000000000000000 
+	Parameter C_HIGH_ADDR bound to: 320'b00000000000000000000000000000000010000010010001011111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001111000000111111111111111100000000000000000000000000000000010000010010000111111111111111110000000000000000000000000000000001000001001000001111111111111111 
+	Parameter C_TARGET_QUAL bound to: 6'b011111 
 	Parameter C_RESOLUTION bound to: 2 - type: integer 
 	Parameter C_COMPARATOR_THRESHOLD bound to: 6 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
@@ -1239,8 +1320,8 @@ INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_s
 	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
 	Parameter C_FAMILY bound to: rtl - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (36#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (37#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (39#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (40#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_VALUE bound to: 30'b010000010010000100000000000000 
@@ -1248,7 +1329,7 @@ INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_s
 	Parameter C_BITS_PER_LUT bound to: 6 - type: integer 
 	Parameter C_NUM_LUT bound to: 5 - type: integer 
 	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (37#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (40#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_VALUE bound to: 30'b010000111100000000000000000000 
@@ -1256,8 +1337,16 @@ INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_s
 	Parameter C_BITS_PER_LUT bound to: 6 - type: integer 
 	Parameter C_NUM_LUT bound to: 5 - type: integer 
 	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (37#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_addr_decoder' (38#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (40#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+	Parameter C_FAMILY bound to: rtl - type: string 
+	Parameter C_VALUE bound to: 30'b010000010010001000000000000000 
+	Parameter C_DATA_WIDTH bound to: 30 - type: integer 
+	Parameter C_BITS_PER_LUT bound to: 6 - type: integer 
+	Parameter C_NUM_LUT bound to: 5 - type: integer 
+	Parameter C_FIX_DATA_WIDTH bound to: 30 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (40#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_addr_decoder' (41#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_decerr_slave' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:3501]
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -1273,7 +1362,7 @@ INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_decerr_slave' [f:
 	Parameter P_AXI4 bound to: 0 - type: integer 
 	Parameter P_AXI3 bound to: 1 - type: integer 
 	Parameter P_AXILITE bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_decerr_slave' (39#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:3501]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_decerr_slave' (42#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:3501]
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_addr_arbiter_sasd' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_NUM_S bound to: 1 - type: integer 
@@ -1282,51 +1371,51 @@ INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_addr_arbiter_sasd
 	Parameter C_GRANT_ENC bound to: 1 - type: integer 
 	Parameter C_ARB_PRIORITY bound to: 0 - type: integer 
 	Parameter P_PRIO_MASK bound to: 1'b0 
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_addr_arbiter_sasd' (40#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_addr_arbiter_sasd' (43#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_splitter' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
 	Parameter C_NUM_M bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_splitter' (41#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_splitter' (44#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
 INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_19_splitter__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
 	Parameter C_NUM_M bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_splitter__parameterized0' (41#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_splitter__parameterized0' (44#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4461]
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
 	Parameter C_FAMILY bound to: rtl - type: string 
-	Parameter C_RATIO bound to: 4 - type: integer 
-	Parameter C_SEL_WIDTH bound to: 2 - type: integer 
+	Parameter C_RATIO bound to: 6 - type: integer 
+	Parameter C_SEL_WIDTH bound to: 3 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (42#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (45#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
 	Parameter C_FAMILY bound to: rtl - type: string 
 	Parameter C_RATIO bound to: 1 - type: integer 
 	Parameter C_SEL_WIDTH bound to: 1 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (42#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (45#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
 	Parameter C_FAMILY bound to: rtl - type: string 
-	Parameter C_RATIO bound to: 4 - type: integer 
-	Parameter C_SEL_WIDTH bound to: 2 - type: integer 
+	Parameter C_RATIO bound to: 6 - type: integer 
+	Parameter C_SEL_WIDTH bound to: 3 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (42#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (45#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
 INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized7' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_DATA_WIDTH bound to: 36 - type: integer 
 	Parameter C_REG_CONFIG bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized7' (42#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_18_axic_register_slice__parameterized7' (45#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:409]
 INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
 	Parameter C_FAMILY bound to: rtl - type: string 
-	Parameter C_RATIO bound to: 4 - type: integer 
-	Parameter C_SEL_WIDTH bound to: 2 - type: integer 
+	Parameter C_RATIO bound to: 6 - type: integer 
+	Parameter C_SEL_WIDTH bound to: 3 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (42#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (45#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
 WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_aw_trans_seq_i_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:2056]
 WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_ar_trans_seq_i_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:2067]
 WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_w_beat_cnt_i_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:2078]
 WARNING: [Synth 8-6014] Unused sequential element gen_debug_trans_seq.debug_r_beat_cnt_i_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:2091]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_crossbar_sasd' (43#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
-INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_axi_crossbar' (44#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4884]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (45#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
-INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_1' (46#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:749]
-INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_1' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/synth/design_1_rst_ps7_0_50M_1.vhd:59' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1925]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_crossbar_sasd' (46#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_19_axi_crossbar' (47#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:4884]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (48#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps7_0_axi_periph_1' (49#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1001]
+INFO: [Synth 8-3491] module 'design_1_rst_ps7_0_50M_1' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/synth/design_1_rst_ps7_0_50M_1.vhd:59' bound to instance 'rst_ps7_0_50M' of component 'design_1_rst_ps7_0_50M_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:2565]
 INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps7_0_50M_1' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/synth/design_1_rst_ps7_0_50M_1.vhd:74]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
@@ -1381,8 +1470,8 @@ INFO: [Synth 8-638] synthesizing module 'lpf' [f:/digilent/WAFBP/Walking_assista
 INFO: [Synth 8-3491] module 'SRL16' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:51683' bound to instance 'POR_SRL_I' of component 'SRL16' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
 INFO: [Synth 8-6157] synthesizing module 'SRL16' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:51683]
 	Parameter INIT bound to: 16'b0000000000000000 
-INFO: [Synth 8-6155] done synthesizing module 'SRL16' (47#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:51683]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (50#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:51683]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter C_CDC_TYPE bound to: 1 - type: integer 
 	Parameter C_RESET_STATE bound to: 0 - type: integer 
 	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
@@ -1401,55 +1490,58 @@ INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_o
 INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
 INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (47#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'lpf' (48#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (50#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (51#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
 INFO: [Synth 8-638] synthesizing module 'sequence_psr' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
 INFO: [Synth 8-638] synthesizing module 'upcnt_n' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
 	Parameter C_SIZE bound to: 6 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (49#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
-INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (50#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
-INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (51#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
-INFO: [Synth 8-256] done synthesizing module 'design_1_rst_ps7_0_50M_1' (52#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/synth/design_1_rst_ps7_0_50M_1.vhd:74]
-INFO: [Synth 8-3491] module 'design_1_sonar_0_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_sonar_0_0/synth/design_1_sonar_0_0.vhd:56' bound to instance 'sonar_0' of component 'design_1_sonar_0_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1938]
-INFO: [Synth 8-638] synthesizing module 'design_1_sonar_0_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_sonar_0_0/synth/design_1_sonar_0_0.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (52#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (53#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (54#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'design_1_rst_ps7_0_50M_1' (55#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/synth/design_1_rst_ps7_0_50M_1.vhd:74]
+INFO: [Synth 8-3491] module 'design_1_sonar_0_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_sonar_0_0/synth/design_1_sonar_0_0.vhd:56' bound to instance 'sonar_0' of component 'design_1_sonar_0_0' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:2578]
+INFO: [Synth 8-638] synthesizing module 'design_1_sonar_0_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_sonar_0_0/synth/design_1_sonar_0_0.vhd:89]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'sonar_v1_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0.vhd:5' bound to instance 'U0' of component 'sonar_v1_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_sonar_0_0/synth/design_1_sonar_0_0.vhd:158]
-INFO: [Synth 8-638] synthesizing module 'sonar_v1_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0.vhd:52]
+INFO: [Synth 8-3491] module 'sonar_v1_0' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0.vhd:5' bound to instance 'U0' of component 'sonar_v1_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_sonar_0_0/synth/design_1_sonar_0_0.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'sonar_v1_0' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0.vhd:55]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'sonar_v1_0_S00_AXI' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:7' bound to instance 'sonar_v1_0_S00_AXI_inst' of component 'sonar_v1_0_S00_AXI' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0.vhd:92]
-INFO: [Synth 8-638] synthesizing module 'sonar_v1_0_S00_AXI' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:91]
+INFO: [Synth 8-3491] module 'sonar_v1_0_S00_AXI' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:7' bound to instance 'sonar_v1_0_S00_AXI_inst' of component 'sonar_v1_0_S00_AXI' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'sonar_v1_0_S00_AXI' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:95]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-226] default block is never used [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:234]
-INFO: [Synth 8-226] default block is never used [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:364]
-WARNING: [Synth 8-614] signal 'sw_int' is read in the process but is not in the sensitivity list [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:359]
-WARNING: [Synth 8-614] signal 'centimeter' is read in the process but is not in the sensitivity list [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:421]
-WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:228]
-WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:232]
-INFO: [Synth 8-256] done synthesizing module 'sonar_v1_0_S00_AXI' (53#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0_S00_AXI.vhd:91]
-INFO: [Synth 8-256] done synthesizing module 'sonar_v1_0' (54#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/569d/hdl/sonar_v1_0.vhd:52]
-INFO: [Synth 8-256] done synthesizing module 'design_1_sonar_0_0' (55#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_sonar_0_0/synth/design_1_sonar_0_0.vhd:86]
-INFO: [Synth 8-3491] module 'design_1_vio_0_1' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/synth/design_1_vio_0_1.v:59' bound to instance 'vio_0' of component 'design_1_vio_0_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1966]
+INFO: [Synth 8-226] default block is never used [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:239]
+INFO: [Synth 8-226] default block is never used [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:369]
+WARNING: [Synth 8-614] signal 'sw_int' is read in the process but is not in the sensitivity list [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:364]
+WARNING: [Synth 8-614] signal 'measurement_done' is read in the process but is not in the sensitivity list [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:364]
+WARNING: [Synth 8-614] signal 'centimeter' is read in the process but is not in the sensitivity list [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:426]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:233]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:234]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:237]
+WARNING: [Synth 8-3848] Net reading_done in module/entity sonar_v1_0_S00_AXI does not have driver. [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'sonar_v1_0_S00_AXI' (56#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0_S00_AXI.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'sonar_v1_0' (57#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/67da/hdl/sonar_v1_0.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'design_1_sonar_0_0' (58#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_sonar_0_0/synth/design_1_sonar_0_0.vhd:89]
+INFO: [Synth 8-3491] module 'design_1_vio_0_1' declared at 'f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/synth/design_1_vio_0_1.v:59' bound to instance 'vio_0' of component 'design_1_vio_0_1' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:2609]
 INFO: [Synth 8-6157] synthesizing module 'design_1_vio_0_1' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/synth/design_1_vio_0_1.v:59]
 WARNING: [Synth 8-3848] Net sl_iport0 in module/entity design_1_vio_0_1 does not have driver. [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/synth/design_1_vio_0_1.v:71]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_vio_0_1' (60#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/synth/design_1_vio_0_1.v:59]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_0'. This will prevent further optimization [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1966]
-INFO: [Synth 8-256] done synthesizing module 'design_1' (61#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1367]
-INFO: [Synth 8-3491] module 'IOBUF' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615' bound to instance 'leds_4bits_tri_iobuf_0' of component 'IOBUF' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:143]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_vio_0_1' (63#1) [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/synth/design_1_vio_0_1.v:59]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_0'. This will prevent further optimization [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:2609]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (64#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd:1885]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615' bound to instance 'leds_4bits_tri_iobuf_0' of component 'IOBUF' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:146]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (62#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
-INFO: [Synth 8-3491] module 'IOBUF' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615' bound to instance 'leds_4bits_tri_iobuf_1' of component 'IOBUF' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:150]
-INFO: [Synth 8-3491] module 'IOBUF' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615' bound to instance 'leds_4bits_tri_iobuf_2' of component 'IOBUF' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:157]
-INFO: [Synth 8-3491] module 'IOBUF' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615' bound to instance 'leds_4bits_tri_iobuf_3' of component 'IOBUF' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:164]
-INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (63#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:45]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (65#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615' bound to instance 'leds_4bits_tri_iobuf_1' of component 'IOBUF' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:153]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615' bound to instance 'leds_4bits_tri_iobuf_2' of component 'IOBUF' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:160]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615' bound to instance 'leds_4bits_tri_iobuf_3' of component 'IOBUF' [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:167]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (66#1) [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/imports/hdl/design_1_wrapper.vhd:46]
 WARNING: [Synth 8-3331] design vio_v3_0_19_vio has unconnected port probe_in1[0]
 WARNING: [Synth 8-3331] design vio_v3_0_19_vio has unconnected port probe_in2[0]
 WARNING: [Synth 8-3331] design vio_v3_0_19_vio has unconnected port probe_in3[0]
@@ -1552,7 +1644,7 @@ WARNING: [Synth 8-3331] design vio_v3_0_19_vio has unconnected port probe_in99[0
 WARNING: [Synth 8-3331] design vio_v3_0_19_vio has unconnected port probe_in100[0]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:30 ; elapsed = 00:02:02 . Memory (MB): peak = 716.105 ; gain = 292.543
+Finished RTL Elaboration : Time (s): cpu = 00:01:54 ; elapsed = 00:02:27 . Memory (MB): peak = 717.441 ; gain = 293.770
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1602,12 +1694,12 @@ WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0 [f:/d
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:31 ; elapsed = 00:02:03 . Memory (MB): peak = 716.105 ; gain = 292.543
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 717.441 ; gain = 293.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:31 ; elapsed = 00:02:03 . Memory (MB): peak = 716.105 ; gain = 292.543
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:55 ; elapsed = 00:02:30 . Memory (MB): peak = 717.441 ; gain = 293.770
 ---------------------------------------------------------------------------------
-INFO: [Netlist 29-17] Analyzing 89 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 95 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -1632,7 +1724,11 @@ Parsing XDC File [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/
 Finished Parsing XDC File [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_1/design_1_rst_ps7_0_50M_1.xdc] for cell 'design_1_i/rst_ps7_0_50M/U0'
 Parsing XDC File [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/design_1_vio_0_1.xdc] for cell 'design_1_i/vio_0'
 Finished Parsing XDC File [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/design_1_vio_0_1.xdc] for cell 'design_1_i/vio_0'
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 964.625 ; gain = 0.000
+Parsing XDC File [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_board.xdc] for cell 'design_1_i/axi_gpio_2/U0'
+Finished Parsing XDC File [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0_board.xdc] for cell 'design_1_i/axi_gpio_2/U0'
+Parsing XDC File [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0.xdc] for cell 'design_1_i/axi_gpio_2/U0'
+Finished Parsing XDC File [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_2_0/design_1_axi_gpio_2_0.xdc] for cell 'design_1_i/axi_gpio_2/U0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 959.227 ; gain = 0.000
 Parsing XDC File [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/constrs_1/imports/digilent-xdc-master/Zybo-Z7-Master.xdc]
 Finished Parsing XDC File [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/constrs_1/imports/digilent-xdc-master/Zybo-Z7-Master.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/constrs_1/imports/digilent-xdc-master/Zybo-Z7-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
@@ -1641,35 +1737,36 @@ Parsing XDC File [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/
 Finished Parsing XDC File [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 964.625 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 959.227 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 964.625 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 959.227 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 89 instances were transformed.
-  FDR => FDRE: 84 instances
+  A total of 95 instances were transformed.
+  FDR => FDRE: 90 instances
   IOBUF => IOBUF (IBUF, OBUFT): 4 instances
   SRL16 => SRL16E: 1 instances
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 964.625 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.305 . Memory (MB): peak = 964.625 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 959.227 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.268 . Memory (MB): peak = 959.227 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:55 ; elapsed = 00:02:38 . Memory (MB): peak = 964.625 ; gain = 541.063
+Finished Constraint Validation : Time (s): cpu = 00:02:26 ; elapsed = 00:03:33 . Memory (MB): peak = 959.227 ; gain = 535.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:55 ; elapsed = 00:02:38 . Memory (MB): peak = 964.625 ; gain = 541.063
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:26 ; elapsed = 00:03:33 . Memory (MB): peak = 959.227 ; gain = 535.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0/inst. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 37).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0/U0. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 40).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_1/U0. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 48).
-Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_50M/U0. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 56).
+Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0/inst. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 40).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0/U0. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 43).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_1/U0. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 51).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_50M/U0. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 59).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_2/U0. (constraint file  F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/dont_touch.xdc, line 68).
 Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
@@ -1679,9 +1776,10 @@ Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constra
 Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_50M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/sonar_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/vio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_2. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:57 ; elapsed = 00:02:40 . Memory (MB): peak = 964.625 ; gain = 541.063
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:28 ; elapsed = 00:03:35 . Memory (MB): peak = 959.227 ; gain = 535.555
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
 INFO: [Synth 8-5544] ROM "s_axi_rresp_i" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
@@ -1698,18 +1796,24 @@ INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because addre
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2870]
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/7a04/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2870]
 INFO: [Synth 8-4471] merging register 'gen_axilite.s_axi_wready_i_reg' into 'gen_axilite.s_axi_awready_i_reg' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/6c9d/hdl/axi_crossbar_v2_1_vl_rfs.v:3574]
-INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "f_mux_return1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "f_mux_return1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-4471] merging register 'seq_cnt_en_reg' into 'from_sys_reg' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:377]
 INFO: [Synth 8-5546] ROM "wr_en_int0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "wr_en_int0" won't be mapped to RAM because it is too sparse
@@ -1737,7 +1841,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi_protocol_converter_v2_1_18_b2s_rd_cmd_fsm'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:01 ; elapsed = 00:02:46 . Memory (MB): peak = 964.625 ; gain = 541.063
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:34 ; elapsed = 00:03:42 . Memory (MB): peak = 959.227 ; gain = 535.555
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1757,7 +1861,7 @@ Detailed RTL Component Info :
 	   2 Input      8 Bit       Adders := 1     
 	   2 Input      6 Bit       Adders := 1     
 	   2 Input      5 Bit       Adders := 4     
-	   2 Input      4 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 7     
 	   2 Input      3 Bit       Adders := 1     
 	   2 Input      2 Bit       Adders := 2     
 +---Registers : 
@@ -1766,42 +1870,42 @@ Detailed RTL Component Info :
 	               64 Bit    Registers := 1     
 	               47 Bit    Registers := 2     
 	               36 Bit    Registers := 2     
-	               32 Bit    Registers := 13    
+	               32 Bit    Registers := 15    
 	               16 Bit    Registers := 6     
 	               14 Bit    Registers := 2     
 	               12 Bit    Registers := 9     
-	                9 Bit    Registers := 4     
+	                9 Bit    Registers := 5     
 	                8 Bit    Registers := 2     
 	                7 Bit    Registers := 1     
-	                6 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
 	                5 Bit    Registers := 5     
 	                4 Bit    Registers := 20    
-	                3 Bit    Registers := 7     
-	                2 Bit    Registers := 19    
-	                1 Bit    Registers := 106   
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 21    
+	                1 Bit    Registers := 126   
 +---Muxes : 
 	   2 Input     66 Bit        Muxes := 4     
 	   2 Input     64 Bit        Muxes := 1     
 	   2 Input     47 Bit        Muxes := 2     
 	   2 Input     36 Bit        Muxes := 2     
-	   5 Input     32 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 3     
 	   2 Input     32 Bit        Muxes := 15    
-	   4 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 3     
 	   2 Input     31 Bit        Muxes := 1     
 	   2 Input     16 Bit        Muxes := 3     
 	   2 Input     14 Bit        Muxes := 2     
 	   2 Input     12 Bit        Muxes := 6     
-	   2 Input      9 Bit        Muxes := 6     
-	   2 Input      6 Bit        Muxes := 1     
-	   2 Input      5 Bit        Muxes := 4     
-	   4 Input      4 Bit        Muxes := 2     
-	   2 Input      4 Bit        Muxes := 36    
-	   2 Input      3 Bit        Muxes := 1     
-	   7 Input      2 Bit        Muxes := 2     
-	   2 Input      2 Bit        Muxes := 18    
+	   2 Input      9 Bit        Muxes := 7     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 5     
+	   4 Input      4 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 40    
+	   2 Input      3 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 20    
 	   4 Input      2 Bit        Muxes := 6     
-	   2 Input      1 Bit        Muxes := 113   
-	   4 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 136   
+	   4 Input      1 Bit        Muxes := 9     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -1872,6 +1976,21 @@ Detailed RTL Component Info :
 	   2 Input      4 Bit        Muxes := 2     
 	   2 Input      1 Bit        Muxes := 11    
 Module axi_gpio__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module GPIO_Core__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module axi_gpio__parameterized3 
 Detailed RTL Component Info : 
 +---Registers : 
 	               32 Bit    Registers := 1     
@@ -2018,7 +2137,7 @@ Detailed RTL Component Info :
 Module axi_crossbar_v2_1_19_addr_decoder 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
 Module axi_crossbar_v2_1_19_decerr_slave 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -2044,11 +2163,11 @@ Detailed RTL Component Info :
 Module generic_baseblocks_v2_1_0_mux_enc 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
 Module generic_baseblocks_v2_1_0_mux_enc__parameterized1 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
 Module axi_register_slice_v2_1_18_axic_register_slice__parameterized7 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -2060,15 +2179,16 @@ Detailed RTL Component Info :
 Module generic_baseblocks_v2_1_0_mux_enc__parameterized2 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
 Module axi_crossbar_v2_1_19_crossbar_sasd 
 Detailed RTL Component Info : 
 +---Registers : 
-	                4 Bit    Registers := 1     
-	                2 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
 	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
 Module lpf 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -2093,13 +2213,13 @@ Detailed RTL Component Info :
 	   2 Input     32 Bit       Adders := 2     
 	   2 Input     31 Bit       Adders := 1     
 +---Registers : 
-	               32 Bit    Registers := 6     
+	               32 Bit    Registers := 5     
 	                4 Bit    Registers := 2     
 	                2 Bit    Registers := 2     
 	                1 Bit    Registers := 9     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 6     
-	   4 Input     32 Bit        Muxes := 4     
+	   2 Input     32 Bit        Muxes := 5     
+	   4 Input     32 Bit        Muxes := 3     
 	   2 Input     31 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 9     
 Module vio_v3_0_19_probe_in_one 
@@ -2153,6 +2273,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:1677]
 INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:1677]
 INFO: [Synth 8-4471] merging register 'bus2ip_reset_reg' into 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/a7c9/hdl/axi_gpio_v2_0_vh_rfs.vhd:1677]
 INFO: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw.aw_pipe/m_payload_i_reg' and it is trimmed from '66' to '62' bits. [f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ipshared/cc23/hdl/axi_register_slice_v2_1_vl_rfs.v:642]
@@ -2296,6 +2417,17 @@ INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3
 INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio__parameterized1.
 INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio__parameterized1.
 INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[3].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio__parameterized1.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/axi_gpio_2/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/axi_gpio_2/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/axi_gpio_2/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/axi_gpio_2/U0/\AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[1] )
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_IN_cdc_to[0].CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module axi_gpio__parameterized3.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d2[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2) is unused and will be removed from module axi_gpio__parameterized3.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d3[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3) is unused and will be removed from module axi_gpio__parameterized3.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d4[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4) is unused and will be removed from module axi_gpio__parameterized3.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_gpio__parameterized3.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio__parameterized3.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/ps7_0_axi_periph/xbar/\inst/gen_sasd.crossbar_sasd_0/m_atarget_hot_reg[3] )
 WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module proc_sys_reset.
 WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module proc_sys_reset.
 WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module proc_sys_reset.
@@ -2303,7 +2435,7 @@ WARNING: [Synth 8-3332] Sequential element (EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GE
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/sonar_0/\U0/sonar_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/sonar_0/\U0/sonar_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:16 ; elapsed = 00:03:05 . Memory (MB): peak = 964.625 ; gain = 541.063
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:53 ; elapsed = 00:04:03 . Memory (MB): peak = 959.227 ; gain = 535.555
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2315,13 +2447,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:33 ; elapsed = 00:03:26 . Memory (MB): peak = 1121.223 ; gain = 697.660
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:17 ; elapsed = 00:04:29 . Memory (MB): peak = 1114.961 ; gain = 691.289
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:38 ; elapsed = 00:03:32 . Memory (MB): peak = 1187.621 ; gain = 764.059
+Finished Timing Optimization : Time (s): cpu = 00:03:24 ; elapsed = 00:04:38 . Memory (MB): peak = 1179.918 ; gain = 756.246
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2333,7 +2465,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:44 ; elapsed = 00:03:39 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Finished Technology Mapping : Time (s): cpu = 00:03:31 ; elapsed = 00:04:47 . Memory (MB): peak = 1200.852 ; gain = 777.180
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2395,7 +2527,7 @@ WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:48 ; elapsed = 00:03:44 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Finished IO Insertion : Time (s): cpu = 00:03:36 ; elapsed = 00:04:53 . Memory (MB): peak = 1200.852 ; gain = 777.180
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -2408,7 +2540,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:48 ; elapsed = 00:03:44 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:36 ; elapsed = 00:04:53 . Memory (MB): peak = 1200.852 ; gain = 777.180
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -2420,25 +2552,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:48 ; elapsed = 00:03:45 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:37 ; elapsed = 00:04:54 . Memory (MB): peak = 1200.852 ; gain = 777.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:48 ; elapsed = 00:03:45 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:37 ; elapsed = 00:04:54 . Memory (MB): peak = 1200.852 ; gain = 777.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:49 ; elapsed = 00:03:45 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:37 ; elapsed = 00:04:54 . Memory (MB): peak = 1200.852 ; gain = 777.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:49 ; elapsed = 00:03:45 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:37 ; elapsed = 00:04:55 . Memory (MB): peak = 1200.852 ; gain = 777.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -2474,112 +2606,120 @@ Report Cell Usage:
 |1     |BIBUF   |   130|
 |2     |BUFG    |     2|
 |3     |CARRY4  |   131|
-|4     |LUT1    |   174|
-|5     |LUT2    |    79|
-|6     |LUT3    |   515|
-|7     |LUT4    |   216|
-|8     |LUT5    |   306|
-|9     |LUT6    |   543|
+|4     |LUT1    |   176|
+|5     |LUT2    |    88|
+|6     |LUT3    |   497|
+|7     |LUT4    |   252|
+|8     |LUT5    |   300|
+|9     |LUT6    |   625|
 |10    |PS7     |     1|
 |11    |SRL16   |     1|
 |12    |SRL16E  |    18|
 |13    |SRLC32E |    47|
 |14    |FDR     |    56|
-|15    |FDRE    |  1409|
-|16    |FDSE    |    37|
+|15    |FDRE    |  1414|
+|16    |FDSE    |    39|
 |17    |IBUF    |     9|
 |18    |IOBUF   |     4|
-|19    |OBUF    |     1|
+|19    |OBUF    |     2|
 +------+--------+------+
 
 Report Instance Areas: 
 +------+------------------------------------------------------------------------------+---------------------------------------------------------------+------+
 |      |Instance                                                                      |Module                                                         |Cells |
 +------+------------------------------------------------------------------------------+---------------------------------------------------------------+------+
-|1     |top                                                                           |                                                               |  3679|
-|2     |  design_1_i                                                                  |design_1                                                       |  3665|
+|1     |top                                                                           |                                                               |  3792|
+|2     |  design_1_i                                                                  |design_1                                                       |  3777|
 |3     |    axi_gpio_0                                                                |design_1_axi_gpio_0_0                                          |   160|
 |4     |      U0                                                                      |axi_gpio                                                       |   160|
-|5     |        AXI_LITE_IPIF_I                                                       |axi_lite_ipif_5                                                |    76|
-|6     |          I_SLAVE_ATTACHMENT                                                  |slave_attachment_8                                             |    76|
-|7     |            I_DECODER                                                         |address_decoder_9                                              |    27|
-|8     |              \MEM_DECODE_GEN[0].PER_CE_GEN[0].MULTIPLE_CES_THIS_CS_GEN.CE_I  |pselect_f                                                      |     1|
-|9     |              \MEM_DECODE_GEN[0].PER_CE_GEN[2].MULTIPLE_CES_THIS_CS_GEN.CE_I  |pselect_f__parameterized1                                      |     1|
+|5     |        AXI_LITE_IPIF_I                                                       |axi_lite_ipif_8                                                |    76|
+|6     |          I_SLAVE_ATTACHMENT                                                  |slave_attachment_11                                            |    76|
+|7     |            I_DECODER                                                         |address_decoder_12                                             |    27|
+|8     |              \MEM_DECODE_GEN[0].PER_CE_GEN[0].MULTIPLE_CES_THIS_CS_GEN.CE_I  |pselect_f_13                                                   |     1|
+|9     |              \MEM_DECODE_GEN[0].PER_CE_GEN[2].MULTIPLE_CES_THIS_CS_GEN.CE_I  |pselect_f__parameterized1_14                                   |     1|
 |10    |        gpio_core_1                                                           |GPIO_Core                                                      |    77|
-|11    |          \Dual.INPUT_DOUBLE_REGS4                                            |cdc_sync_6                                                     |    16|
-|12    |          \Dual.INPUT_DOUBLE_REGS5                                            |cdc_sync_7                                                     |    16|
+|11    |          \Dual.INPUT_DOUBLE_REGS4                                            |cdc_sync_9                                                     |    16|
+|12    |          \Dual.INPUT_DOUBLE_REGS5                                            |cdc_sync_10                                                    |    16|
 |13    |    axi_gpio_1                                                                |design_1_axi_gpio_1_0                                          |   134|
 |14    |      U0                                                                      |axi_gpio__parameterized1                                       |   134|
-|15    |        AXI_LITE_IPIF_I                                                       |axi_lite_ipif                                                  |    77|
-|16    |          I_SLAVE_ATTACHMENT                                                  |slave_attachment                                               |    77|
-|17    |            I_DECODER                                                         |address_decoder                                                |    28|
+|15    |        AXI_LITE_IPIF_I                                                       |axi_lite_ipif_5                                                |    77|
+|16    |          I_SLAVE_ATTACHMENT                                                  |slave_attachment_6                                             |    77|
+|17    |            I_DECODER                                                         |address_decoder_7                                              |    28|
 |18    |        gpio_core_1                                                           |GPIO_Core__parameterized0                                      |    50|
 |19    |          \Not_Dual.INPUT_DOUBLE_REGS3                                        |cdc_sync                                                       |    16|
-|20    |    processing_system7_0                                                      |design_1_processing_system7_0_0                                |   244|
-|21    |      inst                                                                    |processing_system7_v5_5_processing_system7                     |   244|
-|22    |    ps7_0_axi_periph                                                          |design_1_ps7_0_axi_periph_1                                    |  1427|
-|23    |      xbar                                                                    |design_1_xbar_0                                                |   307|
-|24    |        inst                                                                  |axi_crossbar_v2_1_19_axi_crossbar                              |   307|
-|25    |          \gen_sasd.crossbar_sasd_0                                           |axi_crossbar_v2_1_19_crossbar_sasd                             |   307|
-|26    |            addr_arbiter_inst                                                 |axi_crossbar_v2_1_19_addr_arbiter_sasd                         |   125|
-|27    |            \gen_decerr.decerr_slave_inst                                     |axi_crossbar_v2_1_19_decerr_slave                              |    13|
-|28    |            reg_slice_r                                                       |axi_register_slice_v2_1_18_axic_register_slice__parameterized7 |   147|
-|29    |            splitter_ar                                                       |axi_crossbar_v2_1_19_splitter__parameterized0                  |     4|
-|30    |            splitter_aw                                                       |axi_crossbar_v2_1_19_splitter                                  |     7|
-|31    |      s00_couplers                                                            |s00_couplers_imp_UYSKKA                                        |  1120|
-|32    |        auto_pc                                                               |design_1_auto_pc_0                                             |  1120|
-|33    |          inst                                                                |axi_protocol_converter_v2_1_18_axi_protocol_converter          |  1120|
-|34    |            \gen_axilite.gen_b2s_conv.axilite_b2s                             |axi_protocol_converter_v2_1_18_b2s                             |  1120|
-|35    |              \RD.ar_channel_0                                                |axi_protocol_converter_v2_1_18_b2s_ar_channel                  |   169|
-|36    |                ar_cmd_fsm_0                                                  |axi_protocol_converter_v2_1_18_b2s_rd_cmd_fsm                  |    31|
-|37    |                cmd_translator_0                                              |axi_protocol_converter_v2_1_18_b2s_cmd_translator_2            |   126|
-|38    |                  incr_cmd_0                                                  |axi_protocol_converter_v2_1_18_b2s_incr_cmd_3                  |    52|
-|39    |                  wrap_cmd_0                                                  |axi_protocol_converter_v2_1_18_b2s_wrap_cmd_4                  |    69|
-|40    |              \RD.r_channel_0                                                 |axi_protocol_converter_v2_1_18_b2s_r_channel                   |    92|
-|41    |                rd_data_fifo_0                                                |axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized1 |    52|
-|42    |                transaction_fifo_0                                            |axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized2 |    26|
-|43    |              SI_REG                                                          |axi_register_slice_v2_1_18_axi_register_slice                  |   620|
-|44    |                \ar.ar_pipe                                                   |axi_register_slice_v2_1_18_axic_register_slice                 |   211|
-|45    |                \aw.aw_pipe                                                   |axi_register_slice_v2_1_18_axic_register_slice_1               |   214|
-|46    |                \b.b_pipe                                                     |axi_register_slice_v2_1_18_axic_register_slice__parameterized1 |    48|
-|47    |                \r.r_pipe                                                     |axi_register_slice_v2_1_18_axic_register_slice__parameterized2 |   147|
-|48    |              \WR.aw_channel_0                                                |axi_protocol_converter_v2_1_18_b2s_aw_channel                  |   172|
-|49    |                aw_cmd_fsm_0                                                  |axi_protocol_converter_v2_1_18_b2s_wr_cmd_fsm                  |    32|
-|50    |                cmd_translator_0                                              |axi_protocol_converter_v2_1_18_b2s_cmd_translator              |   124|
-|51    |                  incr_cmd_0                                                  |axi_protocol_converter_v2_1_18_b2s_incr_cmd                    |    53|
-|52    |                  wrap_cmd_0                                                  |axi_protocol_converter_v2_1_18_b2s_wrap_cmd                    |    67|
-|53    |              \WR.b_channel_0                                                 |axi_protocol_converter_v2_1_18_b2s_b_channel                   |    65|
-|54    |                bid_fifo_0                                                    |axi_protocol_converter_v2_1_18_b2s_simple_fifo                 |    33|
-|55    |                bresp_fifo_0                                                  |axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized0 |     8|
-|56    |    rst_ps7_0_50M                                                             |design_1_rst_ps7_0_50M_1                                       |    66|
-|57    |      U0                                                                      |proc_sys_reset                                                 |    66|
-|58    |        EXT_LPF                                                               |lpf                                                            |    23|
-|59    |          \ACTIVE_LOW_AUX.ACT_LO_AUX                                          |cdc_sync__parameterized0                                       |     6|
-|60    |          \ACTIVE_LOW_EXT.ACT_LO_EXT                                          |cdc_sync__parameterized0_0                                     |     6|
-|61    |        SEQ                                                                   |sequence_psr                                                   |    38|
-|62    |          SEQ_COUNTER                                                         |upcnt_n                                                        |    13|
-|63    |    sonar_0                                                                   |design_1_sonar_0_0                                             |  1155|
-|64    |      U0                                                                      |sonar_v1_0                                                     |  1154|
-|65    |        sonar_v1_0_S00_AXI_inst                                               |sonar_v1_0_S00_AXI                                             |  1154|
-|66    |    vio_0                                                                     |design_1_vio_0_1                                               |   479|
-|67    |      inst                                                                    |vio_v3_0_19_vio                                                |   479|
-|68    |        U_XSDB_SLAVE                                                          |xsdbs_v1_0_2_xsdbs                                             |   248|
-|69    |        DECODER_INST                                                          |vio_v3_0_19_decoder                                            |    77|
-|70    |        PROBE_IN_INST                                                         |vio_v3_0_19_probe_in_one                                       |   138|
+|20    |    axi_gpio_2                                                                |design_1_axi_gpio_2_0                                          |    82|
+|21    |      U0                                                                      |axi_gpio__parameterized3                                       |    82|
+|22    |        AXI_LITE_IPIF_I                                                       |axi_lite_ipif                                                  |    67|
+|23    |          I_SLAVE_ATTACHMENT                                                  |slave_attachment                                               |    67|
+|24    |            I_DECODER                                                         |address_decoder                                                |    19|
+|25    |              \MEM_DECODE_GEN[0].PER_CE_GEN[0].MULTIPLE_CES_THIS_CS_GEN.CE_I  |pselect_f                                                      |     1|
+|26    |              \MEM_DECODE_GEN[0].PER_CE_GEN[2].MULTIPLE_CES_THIS_CS_GEN.CE_I  |pselect_f__parameterized1                                      |     1|
+|27    |        gpio_core_1                                                           |GPIO_Core__parameterized1                                      |    11|
+|28    |    processing_system7_0                                                      |design_1_processing_system7_0_0                                |   244|
+|29    |      inst                                                                    |processing_system7_v5_5_processing_system7                     |   244|
+|30    |    ps7_0_axi_periph                                                          |design_1_ps7_0_axi_periph_1                                    |  1493|
+|31    |      xbar                                                                    |design_1_xbar_0                                                |   373|
+|32    |        inst                                                                  |axi_crossbar_v2_1_19_axi_crossbar                              |   373|
+|33    |          \gen_sasd.crossbar_sasd_0                                           |axi_crossbar_v2_1_19_crossbar_sasd                             |   373|
+|34    |            addr_arbiter_inst                                                 |axi_crossbar_v2_1_19_addr_arbiter_sasd                         |   137|
+|35    |            \gen_decerr.decerr_slave_inst                                     |axi_crossbar_v2_1_19_decerr_slave                              |    15|
+|36    |            reg_slice_r                                                       |axi_register_slice_v2_1_18_axic_register_slice__parameterized7 |   188|
+|37    |            splitter_ar                                                       |axi_crossbar_v2_1_19_splitter__parameterized0                  |     6|
+|38    |            splitter_aw                                                       |axi_crossbar_v2_1_19_splitter                                  |    12|
+|39    |      s00_couplers                                                            |s00_couplers_imp_UYSKKA                                        |  1120|
+|40    |        auto_pc                                                               |design_1_auto_pc_0                                             |  1120|
+|41    |          inst                                                                |axi_protocol_converter_v2_1_18_axi_protocol_converter          |  1120|
+|42    |            \gen_axilite.gen_b2s_conv.axilite_b2s                             |axi_protocol_converter_v2_1_18_b2s                             |  1120|
+|43    |              \RD.ar_channel_0                                                |axi_protocol_converter_v2_1_18_b2s_ar_channel                  |   169|
+|44    |                ar_cmd_fsm_0                                                  |axi_protocol_converter_v2_1_18_b2s_rd_cmd_fsm                  |    31|
+|45    |                cmd_translator_0                                              |axi_protocol_converter_v2_1_18_b2s_cmd_translator_2            |   126|
+|46    |                  incr_cmd_0                                                  |axi_protocol_converter_v2_1_18_b2s_incr_cmd_3                  |    52|
+|47    |                  wrap_cmd_0                                                  |axi_protocol_converter_v2_1_18_b2s_wrap_cmd_4                  |    69|
+|48    |              \RD.r_channel_0                                                 |axi_protocol_converter_v2_1_18_b2s_r_channel                   |    92|
+|49    |                rd_data_fifo_0                                                |axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized1 |    52|
+|50    |                transaction_fifo_0                                            |axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized2 |    26|
+|51    |              SI_REG                                                          |axi_register_slice_v2_1_18_axi_register_slice                  |   620|
+|52    |                \ar.ar_pipe                                                   |axi_register_slice_v2_1_18_axic_register_slice                 |   211|
+|53    |                \aw.aw_pipe                                                   |axi_register_slice_v2_1_18_axic_register_slice_1               |   214|
+|54    |                \b.b_pipe                                                     |axi_register_slice_v2_1_18_axic_register_slice__parameterized1 |    48|
+|55    |                \r.r_pipe                                                     |axi_register_slice_v2_1_18_axic_register_slice__parameterized2 |   147|
+|56    |              \WR.aw_channel_0                                                |axi_protocol_converter_v2_1_18_b2s_aw_channel                  |   172|
+|57    |                aw_cmd_fsm_0                                                  |axi_protocol_converter_v2_1_18_b2s_wr_cmd_fsm                  |    32|
+|58    |                cmd_translator_0                                              |axi_protocol_converter_v2_1_18_b2s_cmd_translator              |   124|
+|59    |                  incr_cmd_0                                                  |axi_protocol_converter_v2_1_18_b2s_incr_cmd                    |    53|
+|60    |                  wrap_cmd_0                                                  |axi_protocol_converter_v2_1_18_b2s_wrap_cmd                    |    67|
+|61    |              \WR.b_channel_0                                                 |axi_protocol_converter_v2_1_18_b2s_b_channel                   |    65|
+|62    |                bid_fifo_0                                                    |axi_protocol_converter_v2_1_18_b2s_simple_fifo                 |    33|
+|63    |                bresp_fifo_0                                                  |axi_protocol_converter_v2_1_18_b2s_simple_fifo__parameterized0 |     8|
+|64    |    rst_ps7_0_50M                                                             |design_1_rst_ps7_0_50M_1                                       |    66|
+|65    |      U0                                                                      |proc_sys_reset                                                 |    66|
+|66    |        EXT_LPF                                                               |lpf                                                            |    23|
+|67    |          \ACTIVE_LOW_AUX.ACT_LO_AUX                                          |cdc_sync__parameterized1                                       |     6|
+|68    |          \ACTIVE_LOW_EXT.ACT_LO_EXT                                          |cdc_sync__parameterized1_0                                     |     6|
+|69    |        SEQ                                                                   |sequence_psr                                                   |    38|
+|70    |          SEQ_COUNTER                                                         |upcnt_n                                                        |    13|
+|71    |    sonar_0                                                                   |design_1_sonar_0_0                                             |  1119|
+|72    |      U0                                                                      |sonar_v1_0                                                     |  1118|
+|73    |        sonar_v1_0_S00_AXI_inst                                               |sonar_v1_0_S00_AXI                                             |  1118|
+|74    |    vio_0                                                                     |design_1_vio_0_1                                               |   479|
+|75    |      inst                                                                    |vio_v3_0_19_vio                                                |   479|
+|76    |        U_XSDB_SLAVE                                                          |xsdbs_v1_0_2_xsdbs                                             |   248|
+|77    |        DECODER_INST                                                          |vio_v3_0_19_decoder                                            |    77|
+|78    |        PROBE_IN_INST                                                         |vio_v3_0_19_probe_in_one                                       |   138|
 +------+------------------------------------------------------------------------------+---------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:49 ; elapsed = 00:03:45 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:37 ; elapsed = 00:04:55 . Memory (MB): peak = 1200.852 ; gain = 777.180
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 490 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:59 ; elapsed = 00:03:17 . Memory (MB): peak = 1209.680 ; gain = 537.598
-Synthesis Optimization Complete : Time (s): cpu = 00:02:49 ; elapsed = 00:03:45 . Memory (MB): peak = 1209.680 ; gain = 786.117
+Synthesis finished with 0 errors, 0 critical warnings and 533 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:18 ; elapsed = 00:04:00 . Memory (MB): peak = 1200.852 ; gain = 535.395
+Synthesis Optimization Complete : Time (s): cpu = 00:03:37 ; elapsed = 00:04:55 . Memory (MB): peak = 1200.852 ; gain = 777.180
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 192 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Chipscope 16-324] Core: design_1_i/vio_0 UUID: 01a4b594-7c44-5fa6-bd66-f70f5f031273 
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1209.680 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1200.852 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 61 instances were transformed.
   FDR => FDRE: 56 instances
@@ -2587,12 +2727,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   SRL16 => SRL16E: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-440 Infos, 204 Warnings, 0 Critical Warnings and 0 Errors encountered.
+481 Infos, 209 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:55 ; elapsed = 00:03:57 . Memory (MB): peak = 1209.680 ; gain = 794.988
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1209.680 ; gain = 0.000
+synth_design: Time (s): cpu = 00:03:46 ; elapsed = 00:05:07 . Memory (MB): peak = 1200.852 ; gain = 786.043
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1200.852 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr  5 13:33:05 2019...
+INFO: [Common 17-206] Exiting Vivado at Sat May  4 21:54:41 2019...

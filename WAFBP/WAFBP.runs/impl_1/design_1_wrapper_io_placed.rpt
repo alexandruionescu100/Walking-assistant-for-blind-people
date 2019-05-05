@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date                      : Fri Apr  5 13:36:26 2019
+| Date                      : Sat May  4 22:00:25 2019
 | Host                      : alexi-PC running 64-bit Service Pack 1  (build 7601)
 | Command                   : report_io -file design_1_wrapper_io_placed.rpt
 | Design                    : design_1_wrapper
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           144 |
+|           145 |
 +---------------+
 
 
@@ -386,7 +386,7 @@ Table of Contents
 | V9         |                      |            | GND                     | GND           |                    |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | V10        |                      |            | NC                      | Not Connected |                    |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V11        |                      |            | NC                      | Not Connected |                    |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| V12        |                      | High Range | IO_L4P_T0_34            | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| V12        | buzzer_1_tri_o[0]    | High Range | IO_L4P_T0_34            | OUTPUT        | LVCMOS33           |      34 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | V13        |                      | High Range | IO_L3N_T0_DQS_34        | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V14        |                      | High Range | VCCO_34                 | VCCO          |                    |      34 |            |      |                     |                      |    3.30 |            |           |          |      |                  |              |                   |              |
 | V15        |                      | High Range | IO_L10P_T1_34           | User IO       |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |

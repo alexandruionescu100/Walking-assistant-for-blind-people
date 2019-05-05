@@ -1447,3 +1447,889 @@ selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 212, 363); // cl (w, cp)
 // Elapsed time: 172 seconds
 selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 35, 364); // cl (w, cp)
 selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 35, 364, false, false, false, false, true); // cl (w, cp) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1151 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 195 MB. Current time: 4/5/19, 2:40:34 PM EEST
+// Elapsed time: 2908 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 109, 462, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // af (al, Popup.HeavyWeightWindow)
+// WARNING: HEventQueue.dispatchEvent() is taking  4033 ms.
+// Elapsed time: 18 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "Pmodol"); // OverlayTextField (ay, ResizableWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "PmodOLEDrgb_v1.0", 1, "PmodOLEDrgb_v1.0", 0, false); // O (Q, ResizableWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "PmodOLEDrgb_v1.0", 1, "PmodOLEDrgb_v1.0", 0, false); // O (Q, ResizableWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "PmodOLEDrgb_v1.0", 1); // O (Q, ResizableWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "PmodOLEDrgb_v1.0", 1, "PmodOLEDrgb_v1.0", 0, false, false, false, false, false, true); // O (Q, ResizableWindow) - Double Click
+// bx (cp):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: current_project WAFBP 
+// Tcl Message: create_bd_cell -type ip -vlnv digilentinc.com:IP:PmodOLEDrgb:1.0 PmodOLEDrgb_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// WARNING: HEventQueue.dispatchEvent() is taking  4971 ms.
+// Tcl Message: create_bd_cell: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 5405.559 ; gain = 0.000 
+// Tcl Message: endgroup 
+// Elapsed time: 19 seconds
+dismissDialog("Add IP"); // bx (cp)
+// Elapsed time: 18 seconds
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (ct, cp)
+// w (cp): Run Connection Automation: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3967 ms.
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (1 out of 2 selected), PmodOLEDrgb_0, AXI_LITE_GPIO]", 2, false, true, ui.utils.TriState.True); // K (Q, w)
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected), PmodOLEDrgb_0, AXI_LITE_SPI]", 3, false, true, ui.utils.TriState.True); // K (Q, w)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (w)
+dismissDialog("Run Connection Automation"); // w (cp)
+// bx (cp):  Run Connection Automation : addNotify
+// Tcl Message: startgroup 
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/PmodOLEDrgb_0/AXI_LITE_GPIO} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins PmodOLEDrgb_0/AXI_LITE_GPIO] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// Tcl Message: </PmodOLEDrgb_0/AXI_LITE_GPIO/AXI_LITE_GPIO_reg> is being mapped into </processing_system7_0/Data> at <0x43C10000 [ 64K ]> 
+// Tcl Message: apply_bd_automation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 5406.875 ; gain = 0.000 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/PmodOLEDrgb_0/AXI_LITE_SPI} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins PmodOLEDrgb_0/AXI_LITE_SPI] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: XGUI_RESET_GUI_ELEMENT
+// Tcl Message: </PmodOLEDrgb_0/AXI_LITE_SPI/AXI_LITE_SPI_reg> is being mapped into </processing_system7_0/Data> at <0x43C20000 [ 64K ]> 
+// Tcl Message: endgroup 
+// Elapsed time: 20 seconds
+dismissDialog("Run Connection Automation"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 195 MB. Current time: 4/5/19, 3:10:35 PM EEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 51 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// r (cp): Re-customize IP: addNotify
+// Tcl Command: 'set_property -dict [list CONFIG.PMOD {jd}] [get_bd_cells PmodOLEDrgb_0]'
+// bx (r):  Customize IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PMOD {jd}] [get_bd_cells PmodOLEDrgb_0] 
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // bx (r)
+// Elapsed time: 95 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 279, 359, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// r (cp): Re-customize IP: addNotify
+// bx (r):  Customize IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // bx (r)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 270, 358, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (as, r): FALSE
+selectButton((HResource) null, "Clear Board Parameters"); // a (a, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// r (cp): Re-customize IP: addNotify
+// bx (r):  Customize IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // bx (r)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 272, 360, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // af (al, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// bx (cp):  Create External Connection : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_cells PmodOLEDrgb_0] 
+// Tcl Message: make_bd_intf_pins_external  [get_bd_cells PmodOLEDrgb_0] 
+// Tcl Message: endgroup 
+dismissDialog("Create External Connection"); // bx (cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 55 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cp)
+// r (cp): Re-customize IP: addNotify
+// bx (r):  Customize IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // bx (r)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+// Elapsed time: 142 seconds
+dismissDialog("Re-customize IP"); // r (cp)
+// Elapsed time: 211 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// bx (cp):  Validate Design : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 5406.875 ; gain = 0.000 
+dismissDialog("Validate Design"); // bx (cp)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cp): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Create HDL Wrapper"); // a (cp)
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: make_wrapper -files [get_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 5406.875 ; gain = 0.000 
+dismissDialog("Create HDL Wrapper"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+// Elapsed time: 582 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 584 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cp)
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . INFO: [BD 41-1029] Generation completed for the IP Integrator block sonar_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block vio_0 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s). ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:  ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:  ERROR: [BD 41-1030] Generation failed for the IP Integrator block PmodOLEDrgb_0  
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.  
+// aX (cp): Launch Run Critical Messages: addNotify
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 301 MB (+5669kb) [04:34:25]
+// Elapsed time: 25 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aX)
+dismissDialog("Launch Run Critical Messages"); // aX (cp)
+// Elapsed time: 104 seconds
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "ja"); // Y (Q, cp)
+// Tcl Command: 'set_property name ja [get_bd_intf_ports PmodOLEDrgb_out_0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B (D, cp)
+// Tcl Message: set_property name ja [get_bd_intf_ports PmodOLEDrgb_out_0] 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Zybo-Z7-Master.xdc]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Zybo-Z7-Master.xdc]", 6, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Save Design : addNotify
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "jd"); // Y (Q, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+dismissDialog("Save Design"); // bx (cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Zybo-Z7-Master.xdc", 2); // k (j, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 3, 287); // cl (w, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 9, 286); // cl (w, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 7, 304); // cl (w, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 9, 321); // cl (w, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 9, 329); // cl (w, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 9, 347); // cl (w, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 8, 366); // cl (w, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 4, 384); // cl (w, cp)
+selectCodeEditor("Zybo-Z7-Master.xdc", 8, 406); // cl (w, cp)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Validate Design : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+dismissDialog("Validate Design"); // bx (cp)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (C, I)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 574, 177, 900, 588, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ac (al, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_SETTINGS, "IP Settings..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_IP_SETTINGS
+// F (cp): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2911 ms.
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Bitstream]", 5, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Implementation]", 4, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Elaboration]", 2, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // L (C, F)
+selectComboBox(PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATOR_LANGUAGE, "VHDL", 0); // e (Q, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, General]", 0, false); // L (C, F)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (F)
+// [GUI Memory]: 335 MB (+19931kb) [04:37:46]
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1048 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Settings"); // F (cp)
+selectButton(PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN, "save_rsb_design"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Save Design : addNotify
+// Tcl Message: save_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  
+dismissDialog("Save Design"); // bx (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cp): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Create HDL Wrapper"); // a (cp)
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: make_wrapper -files [get_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+dismissDialog("Create HDL Wrapper"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// f (cp): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cp)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 3 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cp)
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . INFO: [BD 41-1029] Generation completed for the IP Integrator block sonar_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block vio_0 . 
+// Tcl Message: ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s). ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:  ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:  ERROR: [BD 41-1030] Generation failed for the IP Integrator block PmodOLEDrgb_0  
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.  
+// aX (cp): Launch Run Critical Messages: addNotify
+// [GUI Memory]: 353 MB (+1358kb) [04:38:24]
+// TclEventType: FILE_SET_CHANGE
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-3505] IP Generation error: Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:", 1); // b (D, aX)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-3505] IP Generation error: Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:", 1); // b (D, aX)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-3505] IP Generation error: Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:", 1, false, false, false, false, true); // b (D, aX) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // aX (cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// bx (cp):  Confirm Delete : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M03_AXI] [get_bd_intf_nets ps7_0_axi_periph_M04_AXI] [get_bd_nets ext_spi_clk_0_1] [get_bd_intf_nets PmodOLEDrgb_0_PmodOLEDrgb_out] [get_bd_cells PmodOLEDrgb_0] 
+// Elapsed time: 24 seconds
+dismissDialog("Confirm Delete"); // bx (cp)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Elapsed time: 10 seconds
+dismissDialog("Save Design"); // bx (cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, cp)
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M03_AXI] [get_bd_intf_nets ps7_0_axi_periph_M04_AXI] [get_bd_nets ext_spi_clk_0_1] [get_bd_intf_nets PmodOLEDrgb_0_PmodOLEDrgb_out] [get_bd_cells PmodOLEDrgb_0]' 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Save Design : addNotify
+setText(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "jd"); // Y (Q, cp)
+// Tcl Message: save_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+dismissDialog("Save Design"); // bx (cp)
+// Tcl Command: 'set_property name jd [get_bd_intf_ports ja]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name jd [get_bd_intf_ports ja] 
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Validate Design : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+dismissDialog("Validate Design"); // bx (cp)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cp): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Create HDL Wrapper"); // a (cp)
+// TclEventType: RSB_SCRIPT_TASK
+// bx (cp):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: make_wrapper -files [get_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Create HDL Wrapper"); // bx (cp)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Zybo-Z7-Master.xdc", 2); // k (j, cp)
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// f (cp): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cp)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cp)
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . INFO: [BD 41-1029] Generation completed for the IP Integrator block sonar_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block vio_0 . 
+// Tcl Message: ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s). ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:  ERROR: [IP_Flow 19-98] Generation of the IP CORE failed. Failed to generate IP 'PmodOLEDrgb_0'. Failed to generate 'Verilog Synthesis' outputs:  ERROR: [BD 41-1030] Generation failed for the IP Integrator block PmodOLEDrgb_0  
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.  
+// aX (cp): Launch Run Critical Messages: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-167] Failed to deliver one or more file(s).", 0); // b (D, aX)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[IP_Flow 19-167] Failed to deliver one or more file(s).", 0, false, false, false, false, true); // b (D, aX) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // aX (cp)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd)]", 3, true); // B (D, cp) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// bx (cp):  Confirm Delete : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M03_AXI] [get_bd_intf_nets ps7_0_axi_periph_M04_AXI] [get_bd_nets ext_spi_clk_0_1] [get_bd_intf_nets PmodOLEDrgb_0_PmodOLEDrgb_out] [get_bd_cells PmodOLEDrgb_0] 
+dismissDialog("Confirm Delete"); // bx (cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_intf_ports jd] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_ports ext_spi_clk_0] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  Wrote  : <F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Elapsed time: 15 seconds
+dismissDialog("Save Design"); // bx (cp)
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// [GUI Memory]: 375 MB (+3901kb) [04:41:01]
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Validate Design : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+dismissDialog("Validate Design"); // bx (cp)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (C, I)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cp): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Create HDL Wrapper"); // a (cp)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// bx (cp):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.srcs\sources_1\bd\design_1\design_1.bd>  VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+dismissDialog("Create HDL Wrapper"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cp): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// f (cp): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cp)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cp)
+// bx (cp):  Generate Bitstream : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . INFO: [BD 41-1029] Generation completed for the IP Integrator block sonar_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block vio_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Apr  5 15:38:41 2019] Launched synth_1... Run output will be captured here: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/synth_1/runme.log [Fri Apr  5 15:38:43 2019] Launched impl_1... Run output will be captured here: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 5739.324 ; gain = 40.578 
+// Elapsed time: 10 seconds
+dismissDialog("Generate Bitstream"); // bx (cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  1268 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 215 MB. Current time: 4/5/19, 3:40:35 PM EEST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cp): Bitstream Generation Completed: addNotify
+// Elapsed time: 713 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (cp):  Open Hardware Manager : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1167 ms.
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  2361 ms.
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// 'Q' command handler elapsed time: 4 seconds
+dismissDialog("Open Hardware Manager"); // bx (cp)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bx (cp)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd)]", 3, true); // B (D, cp) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  2782 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1035ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1035 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  46708 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2137 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  40979 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3888 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1360318 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 209 MB. Current time: 4/5/19, 4:17:54 PM EEST
+// WARNING: HEventQueue.dispatchEvent() is taking  4596 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4850 ms. Increasing delay to 14550 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4613 ms. Increasing delay to 13839 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1334 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2 ms. Decreasing delay to 2002 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5 ms. Decreasing delay to 2005 ms.
+// Elapsed time: 1682 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+// Elapsed time: 60 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 467, 88, 626, 434, false, false, false, true, false); // fS (k, cp) - Popup Trigger
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 425, 90); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 103, 155); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 104, 156, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 96, 65); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 96, 65, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 145, 61); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 63, 32); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 63, 32, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 88, 83); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 88, 83, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 64, 87); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 64, 87, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 158, 117); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 158, 117, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 160, 148); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 160, 148, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 99, 88); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 73, 125); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 73, 125, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 83, 147); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 83, 147, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 91, 129); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 91, 129, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 24, 220); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 24, 220, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 198, 271); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 198, 271, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 73, 260); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 73, 260, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 65, 265); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 65, 265, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 66 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Zybo-Z7-Master.xdc", 2); // k (j, cp)
+// Elapsed time: 36 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 28, 265); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0.vhd", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sonar_v1_0(arch_imp) (sonar_v1_0.vhd), sonar_v1_0_S00_AXI_inst : sonar_v1_0_S00_AXI(arch_imp) (sonar_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 141, 112); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 141, 112, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 123, 92); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 127, 93); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 127, 131); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 128, 185); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 123, 215); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 136, 165); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 136, 165, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 371, 156); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 371, 158, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u (Q, cp)
+// bx (cp):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bx (cp)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+// Elapsed time: 15 seconds
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, Popup.HeavyWeightWindow)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (Q, cp)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// F (cp): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1648 ms.
+// Tcl Message: current_project edit_sonar_v1_0 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (Q, cp)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // L (C, F)
+// Elapsed time: 31 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (F)
+dismissDialog("Settings"); // F (cp)
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Elapsed time: 121 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sonar_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 149, 158); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 149, 158, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 195 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 373, 64); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 373, 64, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 368, 57); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 368, 57, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 93, 61); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 93, 61, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 373, 64); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 373, 64, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 24, 210); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 24, 210, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 18, 321); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 18, 321, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 23, 309); // cl (w, cp)
+selectCodeEditor("sonar_v1_0_S00_AXI.vhd", 23, 309, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 222 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // X (q, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,841 MB. GUI used memory: 219 MB. Current time: 4/5/19, 4:47:51 PM EEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1342 ms.
+// Elapsed time: 615 seconds
+selectTab((HResource) null, (HResource) null, "Design", 1); // aI (aF, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cp)
+// Elapsed time: 14 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: current_project WAFBP 
+// Tcl Message: regenerate_bd_layout 

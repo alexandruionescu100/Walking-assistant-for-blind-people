@@ -268,3 +268,5 @@ set_property src_info {type:XDC file:2 line:127 export:INPUT save:INPUT read:REA
 set_property -dict { PACKAGE_PIN W15   IOSTANDARD LVCMOS33     } [get_ports { W_Trig_0 }]; #IO_L10N_T1_34 Sch=jc_n[1] jc[1]
 set_property src_info {type:XDC file:2 line:129 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33     } [get_ports { W_Echo_0 }]; #IO_L1N_T0_34 Sch=jc_n[2] jc[3]
+set_property src_info {type:XDC file:2 line:148 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V12   IOSTANDARD LVCMOS33 } [get_ports { buzzer_1_tri_o }]; #IO_L4P_T0_34 Sch=je[1]

@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.sdk\FSBL\Debug\FSBL.elf
+	F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.sdk\design_1_wrapper_hw_platform_0\design_1_wrapper.bit
+	F:\digilent\WAFBP\Walking_assistant_for_blind_people_v1\WAFBP\WAFBP.sdk\WAFBP_v2\Debug\WAFBP_v2.elf
+}

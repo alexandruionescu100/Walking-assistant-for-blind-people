@@ -1,8 +1,41 @@
-14:33:29 **** Incremental Build of configuration Debug for project WAFBP_v2 ****
+13:55:42 **** Auto Build of configuration Debug for project WAFBP_v2 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Nothing to be done for 'main-build'.
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../WAFBP_v2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:51:0:
+../../WAFBP_v2_bsp/ps7_cortexa9_0/include/xbasic_types.h:111:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../WAFBP_v2_bsp/ps7_cortexa9_0/include/xbasic_types.h:112:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:81:3: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^~~~~~
+   fseek
+../src/helloworld.c:67:10: warning: unused variable 'switch_data' [-Wunused-variable]
+      int switch_data = 0;
+          ^~~~~~~~~~~
+../src/helloworld.c:66:10: warning: unused variable 'button_data' [-Wunused-variable]
+      int button_data = 0;
+          ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: WAFBP_v2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../WAFBP_v2_bsp/ps7_cortexa9_0/lib -o "WAFBP_v2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: WAFBP_v2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size WAFBP_v2.elf  |tee "WAFBP_v2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24768	   1200	  22584	  48552	   bda8	WAFBP_v2.elf
+'Finished building: WAFBP_v2.elf.size'
+' '
 
-14:33:30 Build Finished (took 318ms)
+13:55:43 Build Finished (took 1s.717ms)
 

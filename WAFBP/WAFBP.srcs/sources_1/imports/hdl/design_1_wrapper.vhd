@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
---Date        : Mon Apr  1 22:40:48 2019
+--Date        : Sat May  4 21:47:13 2019
 --Host        : alexi-PC running 64-bit Service Pack 1  (build 7601)
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -34,7 +34,10 @@ entity design_1_wrapper is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
+    W_Echo_0 : in STD_LOGIC;
+    W_Trig_0 : out STD_LOGIC;
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    buzzer_1_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
     leds_4bits_tri_io : inout STD_LOGIC_VECTOR ( 3 downto 0 );
     sws_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
@@ -43,6 +46,20 @@ end design_1_wrapper;
 architecture STRUCTURE of design_1_wrapper is
   component design_1 is
   port (
+    W_Echo_0 : in STD_LOGIC;
+    W_Trig_0 : out STD_LOGIC;
+    buzzer_1_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
+    FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
+    FIXED_IO_ddr_vrn : inout STD_LOGIC;
+    FIXED_IO_ddr_vrp : inout STD_LOGIC;
+    FIXED_IO_ps_srstb : inout STD_LOGIC;
+    FIXED_IO_ps_clk : inout STD_LOGIC;
+    FIXED_IO_ps_porb : inout STD_LOGIC;
+    btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_4bits_tri_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_4bits_tri_t : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    sws_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
     DDR_cas_n : inout STD_LOGIC;
     DDR_cke : inout STD_LOGIC;
     DDR_ck_n : inout STD_LOGIC;
@@ -57,18 +74,7 @@ architecture STRUCTURE of design_1_wrapper is
     DDR_dm : inout STD_LOGIC_VECTOR ( 3 downto 0 );
     DDR_dq : inout STD_LOGIC_VECTOR ( 31 downto 0 );
     DDR_dqs_n : inout STD_LOGIC_VECTOR ( 3 downto 0 );
-    DDR_dqs_p : inout STD_LOGIC_VECTOR ( 3 downto 0 );
-    FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
-    FIXED_IO_ddr_vrn : inout STD_LOGIC;
-    FIXED_IO_ddr_vrp : inout STD_LOGIC;
-    FIXED_IO_ps_srstb : inout STD_LOGIC;
-    FIXED_IO_ps_clk : inout STD_LOGIC;
-    FIXED_IO_ps_porb : inout STD_LOGIC;
-    btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    sws_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    leds_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    leds_4bits_tri_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
-    leds_4bits_tri_t : out STD_LOGIC_VECTOR ( 3 downto 0 )
+    DDR_dqs_p : inout STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component design_1;
   component IOBUF is
@@ -119,7 +125,10 @@ design_1_i: component design_1
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
+      W_Echo_0 => W_Echo_0,
+      W_Trig_0 => W_Trig_0,
       btns_4bits_tri_i(3 downto 0) => btns_4bits_tri_i(3 downto 0),
+      buzzer_1_tri_o(0) => buzzer_1_tri_o(0),
       leds_4bits_tri_i(3) => leds_4bits_tri_i_3(3),
       leds_4bits_tri_i(2) => leds_4bits_tri_i_2(2),
       leds_4bits_tri_i(1) => leds_4bits_tri_i_1(1),

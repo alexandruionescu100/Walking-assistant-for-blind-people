@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Fri Apr  5 13:37:33 2019
+| Date             : Sat May  4 22:01:44 2019
 | Host             : alexi-PC running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 1.534        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.414        |
+| Dynamic (W)              | 1.413        |
 | Device Static (W)        | 0.121        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 67.3         |
@@ -52,17 +52,17 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.005 |        4 |       --- |             --- |
-| Slice Logic              |     0.004 |     4906 |       --- |             --- |
-|   LUT as Logic           |     0.004 |     1823 |     17600 |           10.36 |
+| Clocks                   |     0.004 |        4 |       --- |             --- |
+| Slice Logic              |     0.004 |     5012 |       --- |             --- |
+|   LUT as Logic           |     0.004 |     1915 |     17600 |           10.88 |
 |   CARRY4                 |    <0.001 |      143 |      4400 |            3.25 |
-|   Register               |    <0.001 |     2170 |     35200 |            6.16 |
+|   Register               |    <0.001 |     2176 |     35200 |            6.18 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
 |   LUT as Distributed RAM |    <0.001 |       24 |      6000 |            0.40 |
 |   LUT as Shift Register  |    <0.001 |       62 |      6000 |            1.03 |
-|   Others                 |     0.000 |      318 |       --- |             --- |
-| Signals                  |     0.005 |     3740 |       --- |             --- |
-| I/O                      |    <0.001 |       14 |       100 |           14.00 |
+|   Others                 |     0.000 |      325 |       --- |             --- |
+| Signals                  |     0.005 |     3820 |       --- |             --- |
+| I/O                      |    <0.001 |       15 |       100 |           15.00 |
 | PS7                      |     1.399 |        1 |       --- |             --- |
 | Static Power             |     0.121 |          |           |                 |
 | Total                    |     1.534 |          |           |                 |
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.021 |       0.014 |      0.007 |
+| Vccint    |       1.000 |     0.020 |       0.013 |      0.007 |
 | Vccaux    |       1.800 |     0.008 |       0.000 |      0.008 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -152,19 +152,17 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     1.414 |
+| design_1_wrapper         |     1.413 |
 |   dbg_hub                |     0.002 |
 |     inst                 |     0.002 |
 |       BSCANID.u_xsdbm_id |     0.002 |
-|   design_1_i             |     1.411 |
+|   design_1_i             |     1.410 |
 |     processing_system7_0 |     1.399 |
 |       inst               |     1.399 |
 |     ps7_0_axi_periph     |     0.003 |
 |       s00_couplers       |     0.002 |
 |     sonar_0              |     0.007 |
 |       U0                 |     0.007 |
-|     vio_0                |     0.001 |
-|       inst               |     0.001 |
 +--------------------------+-----------+
 
 

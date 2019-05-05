@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
---Date        : Fri Apr  5 13:27:28 2019
+--Date        : Sat May  4 21:47:34 2019
 --Host        : alexi-PC running 64-bit Service Pack 1  (build 7601)
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -37,6 +37,7 @@ entity design_1_wrapper is
     W_Echo_0 : in STD_LOGIC;
     W_Trig_0 : out STD_LOGIC;
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    buzzer_1_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
     leds_4bits_tri_io : inout STD_LOGIC_VECTOR ( 3 downto 0 );
     sws_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
@@ -47,6 +48,7 @@ architecture STRUCTURE of design_1_wrapper is
   port (
     W_Echo_0 : in STD_LOGIC;
     W_Trig_0 : out STD_LOGIC;
+    buzzer_1_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
     FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
     FIXED_IO_ddr_vrn : inout STD_LOGIC;
     FIXED_IO_ddr_vrp : inout STD_LOGIC;
@@ -126,6 +128,7 @@ design_1_i: component design_1
       W_Echo_0 => W_Echo_0,
       W_Trig_0 => W_Trig_0,
       btns_4bits_tri_i(3 downto 0) => btns_4bits_tri_i(3 downto 0),
+      buzzer_1_tri_o(0) => buzzer_1_tri_o(0),
       leds_4bits_tri_i(3) => leds_4bits_tri_i_3(3),
       leds_4bits_tri_i(2) => leds_4bits_tri_i_2(2),
       leds_4bits_tri_i(1) => leds_4bits_tri_i_1(1),

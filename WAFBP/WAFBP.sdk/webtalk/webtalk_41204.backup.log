@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Sat May  4 20:26:51 2019
+# Process ID: 41204
+# Current directory: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/webtalk/webtalk.log
+# Journal file: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
+# webtalk_init -webtalk_dir F:\\digilent\\WAFBP\\Walking_assistant_for_blind_people_v1\\WAFBP\\WAFBP.sdk\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "2019-05-04 20:26:39" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key product_version -value "SDK v2018.3" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key build_version -value "2018.3" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key registration_id -value "211690469_0_0_444" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key tool_flow -value "SDK" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key beta -value "false" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key route_design -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_family -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key random_id -value "teiijj3uips7fdr9urqa87pv77" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_id -value "2018.3_6" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_iteration -value "6" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_name -value "Microsoft Windows 7 , 64-bit" -context "user_environment"
+# webtalk_add_data -client project -key os_release -value "Service Pack 1  (build 7601)" -context "user_environment"
+# webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i5-2430M CPU @ 2.40GHz" -context "user_environment"
+# webtalk_add_data -client project -key cpu_speed -value "2394 MHz" -context "user_environment"
+# webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
+# webtalk_add_data -client project -key system_ram -value "8.355 GB" -context "user_environment"
+# webtalk_register_client -client sdk
+# webtalk_add_data -client sdk -key uid -value "1556990454881" -context "sdk\\\\application/1556990454881"
+# webtalk_add_data -client sdk -key os -value "linux" -context "sdk\\\\application/1556990454881"
+# webtalk_add_data -client sdk -key apptemplate -value "linux_hello_world" -context "sdk\\\\application/1556990454881"
+# webtalk_add_data -client sdk -key RecordType -value "APPCreation" -context "sdk\\\\application/1556990454881"
+# webtalk_add_data -client sdk -key LangUsed -value "C" -context "sdk\\\\application/1556990454881"
+# webtalk_add_data -client sdk -key Procused -value "" -context "sdk\\\\application/1556990454881"
+# webtalk_add_data -client sdk -key projSize -value "36.81640625" -context "sdk\\\\application/1556990454881"
+# webtalk_add_data -client sdk -key uid -value "NA" -context "sdk\\\\bsp/1556990799023"
+# webtalk_add_data -client sdk -key RecordType -value "ToolUsage" -context "sdk\\\\bsp/1556990799023"
+# webtalk_add_data -client sdk -key BootgenCount -value "0" -context "sdk\\\\bsp/1556990799023"
+# webtalk_add_data -client sdk -key DebugCount -value "0" -context "sdk\\\\bsp/1556990799023"
+# webtalk_add_data -client sdk -key PerfCount -value "0" -context "sdk\\\\bsp/1556990799023"
+# webtalk_add_data -client sdk -key FlashCount -value "0" -context "sdk\\\\bsp/1556990799023"
+# webtalk_add_data -client sdk -key CrossTriggCount -value "0" -context "sdk\\\\bsp/1556990799023"
+# webtalk_add_data -client sdk -key QemuDebugCount -value "0" -context "sdk\\\\bsp/1556990799023"
+# webtalk_transmit -clientid 2234487518 -regid "211690469_0_0_444" -xml F:\\digilent\\WAFBP\\Walking_assistant_for_blind_people_v1\\WAFBP\\WAFBP.sdk\\webtalk\\usage_statistics_ext_sdk.xml -html F:\\digilent\\WAFBP\\Walking_assistant_for_blind_people_v1\\WAFBP\\WAFBP.sdk\\webtalk\\usage_statistics_ext_sdk.html -wdm F:\\digilent\\WAFBP\\Walking_assistant_for_blind_people_v1\\WAFBP\\WAFBP.sdk\\webtalk\\sdk_webtalk.wdm -intro "<H3>SDK Usage Report</H3><BR>"

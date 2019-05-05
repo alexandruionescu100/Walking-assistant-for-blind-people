@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Fri Apr  5 13:33:21 2019
-# Process ID: 3732
+# Start of session at: Sat May  4 21:55:02 2019
+# Process ID: 8308
 # Current directory: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/impl_1
 # Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
 # Log file: F:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/WAFBP/WAFBP.runs/impl_1/design_1_wrapper.vdi

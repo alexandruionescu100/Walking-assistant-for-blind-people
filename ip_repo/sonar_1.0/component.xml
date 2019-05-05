@@ -298,7 +298,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>f7a11cc0</spirit:value>
+            <spirit:value>04ade1c5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -314,7 +314,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>f7a11cc0</spirit:value>
+            <spirit:value>04ade1c5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -412,6 +412,45 @@
           <spirit:wireTypeDefs>
             <spirit:wireTypeDef>
               <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>W_Enable</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>W_Next_sonar_status</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>W_Reading_done</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
               <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
               <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
             </spirit:wireTypeDef>
@@ -769,7 +808,7 @@
       <spirit:file>
         <spirit:name>hdl/sonar_v1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_2bcbedb8</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_547df178</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -898,8 +937,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>sonar_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>7</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-04-05T10:15:57Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>24</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2019-05-04T16:58:27Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@7c67a1d9_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2b164ba8_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
@@ -1009,14 +1048,215 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@6a19e7e9_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@16a07fef_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@14dcd460_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4cbf0eb5_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@69267077_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e5ec76_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38367a74_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1351c50e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71bfb1b5_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75ce74a5_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@107545e3_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e5e7784_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@231d9f7a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53206c8_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c303f77_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6679c107_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32d22a14_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ec69bc0_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@594e5b30_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a7c4ca3_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16ccb26c_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f19f9eb_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d50df2c_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64f92a86_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ef5c214_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1354ebc9_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@302a91cc_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@511a1d54_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74cac381_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50a19d21_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5311fff2_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3af52b03_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b95f08e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a644083_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17835860_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65788bac_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@154ad38a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2dd30c08_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ce67a62_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f2b3b1d_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36dad26_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4bde0ed5_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@491ccc89_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b4f3245_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1bc4a63c_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a91f15b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d3915b9_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38d3c6ba_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1568d81b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f1c0517_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3777a066_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59f3bd19_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45cb3099_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@70cb363b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@366382db_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e963dcc_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48e50474_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@145cf28d_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b6b6e90_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5445d867_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e682382_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@550b7038_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ddc5a74_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75099757_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71d2032c_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@39033d6a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19844a1_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7776c6c8_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@596dd311_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@193303de_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57e71243_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@8f4d4f3_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2918f444_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@456b9027_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a0be82_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1406692e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56771737_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b8d4b1d_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@277137d5_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67869973_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15512278_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a0cc165_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33379cb4_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30ba8f83_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ab75707_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37e3313f_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2022c69e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28442821_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@69a89742_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@21fe19bb_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b895a48_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@669c6682_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@edbbb71_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@774ee70f_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4be322e7_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c6fef94_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@25169dd_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c9285bf_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1316c3f8_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77bc704b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@217655c9_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@408660bd_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17188ff4_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6737e715_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a5683ce_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16d87aa_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7171b652_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68aea30d_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ef4ba5e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f116b3e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@35a9b765_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48b094c1_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e056712_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@25f75bc_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f510a89_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e56eb28_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46cdbc9a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a036f5f_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57c52e8a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48a01518_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ef27c6b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d9164df_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d45eba3_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d5f2bb8_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4fcfae82_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@492991df_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50ce5b16_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c39274_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57df2d43_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4519e6e7_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@8ad4b8b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@10d2c27f_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17f35f3e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78294250_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27dc1ae5_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@232d558c_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@185985a5_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3db71d38_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3051e800_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@452c82a2_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a19b0c0_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a18bdb5_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d29530_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27fff102_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5000365e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e91863a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4869b203_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a295452_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e6d1553_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49b3e496_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23424480_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@162204d4_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7986cc64_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c61e657_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a0ee023_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@242b9fdd_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4efbb41d_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ad130d1_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@34d94e5a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ad79d76_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23e58781_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79ed4551_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3eea2a12_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16a16a87_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ebbcda_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e65f01a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c08eb70_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@131b42_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e1b0b20_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@bf99391_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ab329b3_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78ed3c07_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@252ad736_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@335404c_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38d34da_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72b74279_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11e83f70_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3985b07b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b2c121e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d058c0d_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9354211_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b6b20d3_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@483163a1_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2fb915ba_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@645d3fb0_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3dad2752_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7927343d_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20a96bce_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b4e54f6_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57dc0a3b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65f3aeed_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@371e011b_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@fdfca8_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@331d3040_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c3112b9_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f16cadf_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30f1b8f_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@419acc8e_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ea54f7a_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72a9f71_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e2a78e9_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a6ed893_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@440f0f2f_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33143494_ARCHIVE_LOCATION">f:/digilent/WAFBP/Walking_assistant_for_blind_people_v1/ip_repo/sonar_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2018.3</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="5d95f556"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="dd889e7b"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="9ef21fe3"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="bb8a3c77"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="652c5568"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="6992ea72"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="ca36f262"/>
     </xilinx:packagingInfo>
